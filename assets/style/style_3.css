@@ -1,14 +1,16 @@
-.container {
+.nav-container {
     max-width: 1170px;
+    height: 100%;
     margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav {
     height: 119px;
     background-image: url(/assets/img/Page_3/bg.png);
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 .logo__img {
@@ -27,15 +29,12 @@
     color: white;
 }
 .social {
+    width: 210px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.social__icon {
-    width: 45px;
-    height: 45px;
-}
-.button {
-}
+
+
 
 
