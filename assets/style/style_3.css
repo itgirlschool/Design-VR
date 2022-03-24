@@ -2,7 +2,7 @@
     max-width: 1170px;
     height: 100%;
     margin: 0 auto;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -10,7 +10,7 @@
 .nav {
     height: 119px;
     background-image: url(/assets/img/Page_3/bg.png);
-    
+
 }
 
 .logo__img {
@@ -22,12 +22,14 @@
     display: flex;
     justify-content: space-between;
     width: 295px;
-    
+
 }
+
 .navigation__link {
     text-decoration: none;
     color: white;
 }
+
 .social {
     width: 210px;
     display: flex;
@@ -37,17 +39,88 @@
 
 .main-container {
     max-width: 1170px;
-    height: 100%;
     margin: 0 auto;
+    background-image: url(/assets/img/Page_3/main-bg.png);
 }
 
 .title {
     display: flex;
     justify-content: center;
-}
-.title__logo {
-}
-.title__title {
+
 }
 
+.title__logo {}
+
+.title__title {
+    font-weight: 700;
+    font-size: 43px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.border {
+
+    height: 473px;
+    border: solid 3px #FF592C;
+    border-radius: 25px;
+
+    padding-top: 103px;
+    padding-left: 67px;
+    margin-top: 80px;
+}
+
+.closes {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-big {
+    width: 111px;
+    height: 107px;
+    padding-right: 27px;
+}
+
+.title-box__item {
+    margin: 0px;
+    font-size: 38px;
+    line-height: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.title-box__text {
+    padding-top: 4px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.time {
+    display: flex;
+    margin-top: 60px;
+}
+
+.time-item {
+    width: 139px;
+    height: 76px;
+    background-color: #FF592C;
+    color: white;
+    font-size: 57px;
+    text-align: center;
+    margin-right: 38px;
+    border-radius: 4px;
+}
 
