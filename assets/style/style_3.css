@@ -2,3 +2,40 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+
+.nav {
+    height: 119px;
+    background-image: url(/assets/img/Page_3/bg.png);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__img {
+    width: 80px;
+    height: 77px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+    
+}
+.navigation__link {
+    text-decoration: none;
+    color: white;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social__icon {
+    width: 45px;
+    height: 45px;
+}
+.button {
+}
+
+
