@@ -1,0 +1,116 @@
+body {
+    font-family: 'Jost';
+}
+
+.header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.604)), url(/assets/img/Page_1_1/linear1.png), url(/assets/img/Page_1_1/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+}
+
+.nav-container {
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 15% 0 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    height: 119px;
+    background-image: url(/assets/img/Page_3/bg.png);
+    opacity: .8;
+}
+
+.logo__img {
+    width: 80px;
+    height: 77px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container {
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.btn__nav-one {
+    margin-right: 20px;
+    width: 159px;
+    height: 45px;
+    color: white;
+    background-image: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn__nav-one:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn__nav-two {
+    width: 130px;
+    height: 44px;
+    color: white;
+    background-color: #935243;
+    border: 1px solid #935243;
+    border-radius: 5px;
+}
+
+.btn__nav-two:hover {
+    color: #935243;
+    background-image: none;
+    background-color: transparent;
+}
+
+.header__title {
+    margin: 15% 15% 0 15%;
+}
+
+.list__list {
+    list-style-image: url(/assets/img/Page_1_1/marker.png);
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.686);
+}
+
+.button__title {
+    display: flex;
+    align-items: center;
+}
+
+.button__title-two {
+    width: 264.45px;
+    height: 65px;
+    color: white;
+    background-image: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.button__title-two:hover {
+    color: black;
+    background-color: white;
+}
