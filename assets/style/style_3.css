@@ -35,6 +35,19 @@
     align-items: center;
 }
 
+.main-container {
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
 
+.title {
+    display: flex;
+    justify-content: center;
+}
+.title__logo {
+}
+.title__title {
+}
 
 
