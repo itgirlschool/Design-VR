@@ -37,19 +37,56 @@
     align-items: center;
 }
 
+.btn__nav-one {
+    margin-right: 20px;
+    width: 159px;
+    height: 45px;
+    color: white;
+    background-image: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn__nav-one:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn__nav-two {
+    width: 130px;
+    height: 44px;
+    color: white;
+    background-color: #935243;
+    border: 1px solid #935243;
+    border-radius: 5px;
+}
+
+.btn__nav-two:hover {
+    color: #935243;
+    background-image: none;
+    background-color: transparent;
+}
+
+main {
+    background-image: url(/assets/img/Page_3/main-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 .main-container {
     max-width: 1170px;
     margin: 0 auto;
-    background-image: url(/assets/img/Page_3/main-bg.png);
+    
 }
 
 .title {
     display: flex;
     justify-content: center;
+    padding-top: 46px;
 
 }
-
-.title__logo {}
 
 .title__title {
     font-weight: 700;
@@ -59,20 +96,25 @@
 }
 
 .border {
-
     height: 473px;
     border: solid 3px #FF592C;
     border-radius: 25px;
-
     padding-top: 103px;
     padding-left: 67px;
     margin-top: 80px;
+    box-shadow:  0px 4px 40px rgba(255, 61, 22, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.59);
+    background: rgba(0, 0, 0, 0.48);
+    display: flex;
+    position: relative;
+}
+
+.border-content {
+    z-index: 2;
 }
 
 .closes {
     display: flex;
     align-items: center;
-
 }
 
 .logo-big {
@@ -108,19 +150,52 @@
     text-fill-color: transparent;
 }
 
+
 .time {
     display: flex;
     margin-top: 60px;
 }
 
-.time-item {
+.time-box {
+    max-width: 140px;
+    
+}
+
+.time-box:not(:last-child) {
+    margin-right: 38px;
+
+}
+
+.time-box__item {
     width: 139px;
     height: 76px;
     background-color: #FF592C;
     color: white;
     font-size: 57px;
+    line-height: 75px;
+    font-family: 'Roboto Mono', monospace; 
     text-align: center;
     margin-right: 38px;
     border-radius: 4px;
+    border: 1.56479px solid #DBDBDB;
 }
 
+.time-box__text {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+}
+
+.border-img {
+    position: absolute;
+    left: 615px;
+    bottom: 115px;
+
+}
+
+.border-img img {
+    width: 590px;
+    height: 588px; 
+}
