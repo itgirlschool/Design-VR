@@ -85,16 +85,7 @@ main {
     padding-top: 46px;
 }
 
-.title__title {
-    font-weight: 700;
-    font-size: 43px;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
+
 
 .border {
     height: 473px;
@@ -202,7 +193,7 @@ main {
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 115px;
-    
+
 }
 
 .colums {
@@ -218,13 +209,10 @@ main {
     background: rgba(196, 196, 196, 0.04);
     box-shadow: 0px 4px 40px rgba(255, 255, 63, 0.13), 0px 4px 4px rgba(0, 0, 0, 0.59);
     text-align: center;
-    
+
 }
 
-.captain__logo {
-
-    
-}
+.captain__logo {}
 
 .captain__title {
     font-family: 'Jost', sans-serif;
