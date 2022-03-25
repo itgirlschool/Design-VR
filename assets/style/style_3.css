@@ -248,6 +248,12 @@ main {
     text-fill-color: transparent;
 }
 
+.price {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 .captain__one {
     width: 269px;
     height: 60px;
@@ -278,6 +284,8 @@ main {
     background: rgba(196, 196, 196, 0.04);
     box-shadow: 0px 4px 40px rgba(255, 255, 63, 0.13), 0px 4px 4px rgba(0, 0, 0, 0.59);
     text-align: center;
+    background-image: url(/assets/img/Page_3/coloner-bg.png);
+    background-size: cover;
 }
 
 .general {
