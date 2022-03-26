@@ -114,3 +114,45 @@ body {
     color: black;
     background-color: white;
 }
+
+.main__trailer-about {
+    padding-top: 5%;
+
+    border-top: 1px solid #93524370;
+    background: url(/assets/img/Page_1/Block_2/bg-trailer.png), rgba(0, 0, 0, 0.905);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.trailer {
+    text-align: center;
+}
+
+.about {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+
+.about__what {
+    margin-top: 2%;
+    height: 100vh;
+    background: url(/assets/img/Page_1/Block_3/left-block.png);
+    background-repeat: no-repeat;
+}
+
+.about__what img {
+    margin: 5% 5% 2% 20%;
+}
+
+.about__what-p {
+    font-size: 18px;
+    margin: 0 50% 15% 20%;
+    color: white;
+}
+
+.main__nft-box {
+    text-align: center;
+    color: white;
+    background: url(/assets/img/Page_1/Block_4/bg4.png), rgba(0, 0, 0, 0.953);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
