@@ -1,5 +1,6 @@
 body {
     font-family: 'Jost';
+    color: white;
 }
 
 .header {
@@ -98,12 +99,14 @@ body {
     color: rgba(255, 255, 255, 0.686);
 }
 
-.button__title {
+.button__title,
+.left-block__btns {
     display: flex;
     align-items: center;
 }
 
-.button__title-one {
+.button__title-one,
+.left-block__btn1 {
     margin-right: 40px;
     width: 264.45px;
     height: 65px;
@@ -119,7 +122,13 @@ body {
     border: none;
 }
 
-.button__title-two {
+.left-block__btn1:hover {
+    background: url(/assets/img/Page_1/Block_1/btn_title-1-bg.png), #BE460D;
+    border: none;
+}
+
+.button__title-two,
+.left-block__btn2 {
     width: 264.45px;
     height: 65px;
     color: white;
@@ -130,6 +139,11 @@ body {
 }
 
 .button__title-two:hover {
+    color: black;
+    background-color: white;
+}
+
+.left-block__btn2:hover {
     color: black;
     background-color: white;
 }
@@ -164,12 +178,10 @@ body {
 .about__what-p {
     font-size: 18px;
     margin: 0 50% 15% 20%;
-    color: white;
 }
 
 .main__nft-box {
     text-align: center;
-    color: white;
     background: url(/assets/img/Page_1/Block_4/bg4.png), rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,5 +206,30 @@ body {
 
 .metaverse__p {
     margin-bottom: 5%;
-    color: white;
+}
+
+.main__concept {
+    padding: 5% 0 5% 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.46);
+    background: url(/assets/img/Page_1/Block_7/bg7.png), black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.concept__title {
+    margin: 5% 0 3% 0;
+    text-align: center;
+}
+
+.concept__flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex__left-block {
+    margin-right: 5%;
+}
+
+.left-block__btns {
+    padding-top: 10%;
 }
