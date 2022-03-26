@@ -103,6 +103,22 @@ body {
     align-items: center;
 }
 
+.button__title-one {
+    margin-right: 40px;
+    width: 264.45px;
+    height: 65px;
+    font-weight: bold;
+    color: #774200;
+    background: url(/assets/img/Page_1/Block_1/btn_title-1-bg.png), linear-gradient(#BE460D, #E6D156);
+    border: 1px solid #E6D156;
+    border-radius: 7px;
+}
+
+.button__title-one:hover {
+    background: url(/assets/img/Page_1/Block_1/btn_title-1-bg.png), #BE460D;
+    border: none;
+}
+
 .button__title-two {
     width: 264.45px;
     height: 65px;
