@@ -239,10 +239,81 @@ body {
 }
 
 .token__left {
-    padding: 15% 0 15% 20%;
+    padding: 10% 0 10% 20%;
 }
 
 .token-left__title,
 .token-left__token-cost {
     margin-bottom: 3%;
+}
+
+.main__roadmap {
+    padding-bottom: 5%;
+    background: url(/assets/img/Page_1/Block_9/bg9.png), black;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.roadmap__title {
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.main__team {
+    text-align: center;
+    background: url(/assets/img/Page_1/Block_10/bg10.png), black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team__table {
+    padding: 5% 0 3% 0;
+}
+
+.team__btn {
+    padding-bottom: 5%;
+}
+
+.team-btn__one {
+    width: 398px;
+    height: 65px;
+    font-weight: bold;
+    color: #774200;
+    background: url(/assets/img/Page_1/Block_10/btn10.png), linear-gradient(#BE460D, #E6D156);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #E6D156;
+    border-radius: 7px;
+}
+
+.team-btn__one:hover {
+    background: url(/assets/img/Page_1/Block_10/btn10.png), #BE460D;
+    border: none;
+}
+
+.footer {
+    text-align: center;
+    background: url(/assets/img/Page_1/Block_11/bg11.png), black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partners__blocks {
+    padding: 3% 0 3% 0;
+}
+
+.footer__bottom {
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.323);
+}
+
+.footer-bottom__contacts-social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__us {
+    padding-right: 40px;
 }
