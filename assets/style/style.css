@@ -90,13 +90,11 @@ body {
 }
 
 .header__title {
-    margin: 15% 15% 0 15%;
+    margin: 10% 15% 0 15%;
 }
 
-.list__list {
-    list-style-image: url(/assets/img/Page_1/Block_1/marker.png);
-    font-size: 32px;
-    color: rgba(255, 255, 255, 0.686);
+.title__list {
+    padding: 2% 0 2% 0;
 }
 
 .button__title,
@@ -152,7 +150,7 @@ body {
     padding-top: 5%;
     border-top: 1px solid rgba(255, 255, 255, 0.46);
     background: url(/assets/img/Page_1/Block_2/bg-trailer.png), rgba(0, 0, 0, 0.905);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -197,7 +195,7 @@ body {
 }
 
 .main__metaverse {
-    padding: 5% 0 2% 0;
+    padding: 5% 0 5% 0;
     text-align: center;
     background: url(/assets/img/Page_1/Block_6/bg6.png);
     background-repeat: no-repeat;
@@ -208,12 +206,12 @@ body {
     margin-bottom: 5%;
 }
 
-.main__concept {
-    padding: 5% 0 5% 0;
+.main__concept-token {
+    padding-top: 5%;
     border-top: 1px solid rgba(255, 255, 255, 0.46);
     background: url(/assets/img/Page_1/Block_7/bg7.png), black;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .concept__title {
@@ -232,4 +230,19 @@ body {
 
 .left-block__btns {
     padding-top: 10%;
+}
+
+.main__token {
+    background: url(/assets/img/Page_1/Block_8/bg8.png), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.604));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.token__left {
+    padding: 15% 0 15% 20%;
+}
+
+.token-left__title,
+.token-left__token-cost {
+    margin-bottom: 3%;
 }
