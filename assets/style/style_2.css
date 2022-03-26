@@ -128,19 +128,30 @@ body {
 
 .page-name {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.table {
+.table-container {
     display: grid;
     width: 70%;
     height: 700px;
 }
 
-
-.table-container {
+.table {
     display: grid;
     border: solid 2px pink;
     height: 100%;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(5, 1fr);
+}
+
+.page__title {
+    margin-bottom: 20px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 62px;
 }
