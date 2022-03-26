@@ -117,8 +117,7 @@ body {
 
 .main__trailer-about {
     padding-top: 5%;
-
-    border-top: 1px solid #93524370;
+    border-top: 1px solid rgba(255, 255, 255, 0.46);
     background: url(/assets/img/Page_1/Block_2/bg-trailer.png), rgba(0, 0, 0, 0.905);
     background-size: cover;
     background-repeat: no-repeat;
@@ -152,7 +151,29 @@ body {
 .main__nft-box {
     text-align: center;
     color: white;
-    background: url(/assets/img/Page_1/Block_4/bg4.png), rgba(0, 0, 0, 0.953);
+    background: url(/assets/img/Page_1/Block_4/bg4.png), rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.main__nft-equipments {
+    padding-top: 5%;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.46);
+    background: url(/assets/img/Page_1/Block_5/bullets.png), black;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main__metaverse {
+    padding: 5% 0 2% 0;
+    text-align: center;
+    background: url(/assets/img/Page_1/Block_6/bg6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.metaverse__p {
+    margin-bottom: 5%;
+    color: white;
 }
