@@ -148,7 +148,7 @@ body {
 
 .main__trailer-about {
     padding-top: 5%;
-    border-top: 1px solid rgba(255, 255, 255, 0.46);
+    border-top: 1px solid rgba(255, 255, 255, 0.035);
     background: url(/assets/img/Page_1/Block_2/bg-trailer.png), rgba(0, 0, 0, 0.905);
     background-size: contain;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@ body {
 .main__nft-equipments {
     padding-top: 5%;
     text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.46);
+    border-top: 1px solid rgba(255, 255, 255, 0.138);
     background: url(/assets/img/Page_1/Block_5/bullets.png), black;
     background-size: contain;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ body {
 
 .main__concept-token {
     padding-top: 5%;
-    border-top: 1px solid rgba(255, 255, 255, 0.46);
+    border-top: 1px solid rgba(255, 255, 255, 0.138);
     background: url(/assets/img/Page_1/Block_7/bg7.png), black;
     background-repeat: no-repeat;
     background-size: contain;
@@ -316,4 +316,12 @@ body {
 
 .contacts__us {
     padding-right: 40px;
+}
+
+.contacts__link {
+    margin-right: 25px;
+}
+
+.contacts__link_margin {
+    margin-right: 0px;
 }
