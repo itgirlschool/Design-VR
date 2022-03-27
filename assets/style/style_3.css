@@ -75,7 +75,7 @@
 
 main {
     height: 100%;
-    background-image: url(/assets/img/Page_3/main-bg.png);
+    background: url(/assets/img/Page_3/main-bg.png), black;
     background-repeat: no-repeat;
     background-size: cover;
 }
