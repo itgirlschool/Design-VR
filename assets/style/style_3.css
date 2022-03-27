@@ -208,10 +208,21 @@ main {
     height: 588px;
 }
 
-.colums-container {
+.box-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-container {
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 115px;
+}
+
+.colums-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    
     padding-bottom: 150px;
 }
 
@@ -231,12 +242,11 @@ main {
     text-align: center;
 }
 
-.captain__logo {}
-
 .captain__title,
 .coloner__title,
 .general__title {
     margin: 0px;
+    margin-top: 40px;
     font-family: 'Jost', sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -352,7 +362,7 @@ main {
 
 .general {
     width: 370px;
-    height: 1282px;
+    height: 1320px;
     border: 3px solid #FFFF3F;
     border-radius: 25px;
     background: none;
