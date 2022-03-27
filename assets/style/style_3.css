@@ -51,6 +51,7 @@
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
+    font-family: 'Jost', sans-serif;
 }
 
 .btn__nav-one:hover {
@@ -65,6 +66,8 @@
     background-color: #935243;
     border: 1px solid #935243;
     border-radius: 5px;
+    font-family: 'Jost', sans-serif;
+    
 }
 
 .btn__nav-two:hover {
