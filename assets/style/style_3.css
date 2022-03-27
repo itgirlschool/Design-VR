@@ -200,13 +200,14 @@ main {
 .border-img {
     position: absolute;
     left: 615px;
-    bottom: 115px;
+    bottom: -5px;
 }
 
-.border-img img {
-    width: 590px;
-    height: 588px;
+.border-img__img {
+    width: 610px;
+    height: 650px;
 }
+
 
 .box-logo {
     display: flex;
