@@ -307,7 +307,7 @@ main {
     width: 270px;
     height: 60px;
     border-radius: 10px;
-    background: linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%);
+    background-image: url(/assets/img/Page_3/bg-btn.png), linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%);
     color: #774200;
     border: 2px solid #FFF61B;
     font-size: 18px;
@@ -315,6 +315,17 @@ main {
     line-height: 26px;
     font-family: 'Jost', sans-serif;
 
+}
+
+.captain__two:hover {
+    background: #BE460D, url(/assets/img/Page_3/bg-btn.png);
+    border: none;
+}
+
+.captain__one:hover {
+    background: white;
+    border: none;
+    color: black;
 }
 
 .coloner {
