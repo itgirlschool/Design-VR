@@ -397,3 +397,12 @@ main {
 .contacts__us {
     padding-right: 40px;
 }
+
+.contacts__link {
+    margin-right: 25px;
+}
+
+.contacts__link_margin {
+    margin-right: 0px;
+}
+
