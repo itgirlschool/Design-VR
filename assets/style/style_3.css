@@ -222,7 +222,7 @@ main {
 .colums-container {
     max-width: 1170px;
     margin: 0 auto;
-    
+
     padding-bottom: 150px;
 }
 
@@ -376,7 +376,7 @@ main {
     background: url(/assets/img/Page_1/Block_11/bg11.png), black;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .copyright__p,
@@ -392,6 +392,7 @@ main {
     max-width: 1170px;
     margin: 0 auto;
 }
+
 .footer__bottom {
     padding: 2% 0 2% 0;
     display: flex;
@@ -415,4 +416,3 @@ main {
 .contacts__link_margin {
     margin-right: 0px;
 }
-
