@@ -216,8 +216,7 @@ a.knopka {
     height: 65px;
     left: 766px;
     top: 629px;
-
-    background: linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%);
+    background: url(/assets/img/Page_4/Group_7.png), linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%);
     border: 1.78082px solid #FFF61B;
     box-sizing: border-box;
     border-radius: 7.15189px;
@@ -237,15 +236,15 @@ a.knopka:active {
 /* при нажатии */
 .knopka {
     width: 275px;
-    height: 26px;
+    height: 20px;
     left: 822px;
     top: 649px;
     justify-content: center;
     font-family: 'Jost*';
     font-style: normal;
     font-weight: 700;
-    font-size: 19px;
-    line-height: 5vh;
+    font-size: 18px;
+    line-height: 6vh;
     text-align: center;
     text-transform: uppercase;
 }
