@@ -35,6 +35,10 @@
     font-style: normal;
 }
 
+.navigation__link:hover {
+    text-decoration: underline;
+}
+
 .social {
     width: 210px;
     display: flex;
