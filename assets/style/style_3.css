@@ -22,12 +22,17 @@
     display: flex;
     justify-content: space-between;
     width: 295px;
-
+    
 }
 
 .navigation__link {
     text-decoration: none;
     color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .social {
@@ -85,7 +90,18 @@ main {
     padding-top: 46px;
 }
 
-
+.title__title {
+    font-size: 43px;
+    line-height: 62px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
 
 .border {
     height: 473px;
@@ -120,6 +136,7 @@ main {
     font-size: 38px;
     line-height: 54px;
     font-weight: 700;
+    font-family: 'Jost', sans-serif;
     text-transform: uppercase;
     background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
     -webkit-background-clip: text;
@@ -135,6 +152,7 @@ main {
     font-size: 20px;
     line-height: 28px;
     font-weight: 500;
+    font-family: 'Jost', sans-serif;
     background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -193,7 +211,6 @@ main {
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 115px;
-
 }
 
 .colums {
@@ -201,24 +218,28 @@ main {
     justify-content: space-between;
 }
 
+
+
 .captain {
     width: 370px;
     height: 507px;
     border: 3px solid #C4C4C4;
     border-radius: 25px;
-    background: rgba(196, 196, 196, 0.04);
+    background-image: url(/assets/img/Page_3/captain-bg.png);
+    background-size: cover;
     box-shadow: 0px 4px 40px rgba(255, 255, 63, 0.13), 0px 4px 4px rgba(0, 0, 0, 0.59);
     text-align: center;
-
 }
 
 .captain__logo {}
 
 .captain__title {
+    margin: 0px;
     font-family: 'Jost', sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 46px;
+    text-align: center;
     background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -228,11 +249,13 @@ main {
 }
 
 .captain__text {
+    margin: 0px;
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
     color: white;
+    text-align: center;
 }
 
 .captain__price {
@@ -241,6 +264,7 @@ main {
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
+    text-align: center;
     background: linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%), linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -253,7 +277,6 @@ main {
     justify-content: space-around;
 }
 
-
 .captain__one {
     width: 269px;
     height: 60px;
@@ -261,7 +284,8 @@ main {
     border: 1px solid white;
     color: white;
     border-radius: 10px;
-
+    margin-bottom: 14px;
+    font-family: 'Jost', sans-serif;
 }
 
 .captain__two {
@@ -274,6 +298,8 @@ main {
     font-size: 18px;
     font-weight: 700;
     line-height: 26px;
+    font-family: 'Jost', sans-serif;
+    
 }
 
 .coloner {
