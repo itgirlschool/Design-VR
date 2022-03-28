@@ -198,6 +198,10 @@ body {
     justify-items: center;
 }
 
+.name-bullet1 {
+    margin-left: 206px;
+}
+
 
 .table div:hover {
     background: linear-gradient(180deg, #5B2B30 0%, #6B3935 57.29%, #A25B48 98.44%), rgba(196, 196, 196, 0.18);
@@ -214,8 +218,6 @@ body {
 
     margin-top: 3%;
 }
-
-
 
 .table h4,
 p {
