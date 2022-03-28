@@ -327,6 +327,22 @@ body {
     border: none;
 }
 
+.main__partners {
+    padding-top: 3%;
+    text-align: center;
+    background: url(/assets/img/Page_1/Block_11/bg11.png), black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocks-up1 {
+    margin: 1%;
+}
+
+.blocks-down1 {
+    margin: 1%;
+}
+
 .footer {
     text-align: center;
     background: url(/assets/img/Page_1/Block_11/bg11.png), black;
