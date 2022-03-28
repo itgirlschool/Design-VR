@@ -335,12 +335,24 @@ body {
     background-size: cover;
 }
 
+.partners__blocks {
+    padding: 3% 0 3% 0;
+}
+
 .blocks-up1 {
     margin: 1%;
 }
 
+.blocks-up1:hover {
+    transform: scale(1.1);
+}
+
 .blocks-down1 {
     margin: 1%;
+}
+
+.blocks-down1:hover {
+    transform: scale(1.1);
 }
 
 .footer {
@@ -350,9 +362,7 @@ body {
     background-size: cover;
 }
 
-.partners__blocks {
-    padding: 3% 0 3% 0;
-}
+
 
 .footer__bottom {
     padding: 2% 0 2% 0;
