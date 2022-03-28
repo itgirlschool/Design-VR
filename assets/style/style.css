@@ -185,6 +185,10 @@ body {
     background-size: cover;
 }
 
+.boxes-choose:hover {
+    transform: scale(1.1);
+}
+
 .main__nft-equipments {
     padding-top: 5%;
     text-align: center;
@@ -192,6 +196,24 @@ body {
     background: url(/assets/img/Page_1/Block_5/bullets.png), black;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.nft-equipments__weapons-choose {
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.weapons-choose {
+    padding: 7px;
+    margin: 1%;
+    border: 3px solid #515050;
+    border-radius: 10px;
+}
+
+.weapons-choose:hover {
+    transform: scale(1.5);
+    border: 3px solid #6625D6;
 }
 
 .main__metaverse {
