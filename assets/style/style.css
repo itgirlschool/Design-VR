@@ -293,7 +293,17 @@ body {
 }
 
 .team__table {
-    padding: 5% 0 3% 0;
+    margin: 3% 15% 3% 15%;
+    display: grid;
+    grid-template-columns: repeat(6, 195px);
+    grid-template-rows: repeat(2, 195px);
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    align-self: center;
+    justify-self: center;
 }
 
 .team__btn {
