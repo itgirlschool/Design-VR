@@ -35,6 +35,10 @@
     font-style: normal;
 }
 
+.navigation__link:hover {
+    text-decoration: underline;
+}
+
 .social {
     width: 210px;
     display: flex;
@@ -51,6 +55,7 @@
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
+    font-family: 'Jost', sans-serif;
 }
 
 .btn__nav-one:hover {
@@ -65,6 +70,8 @@
     background-color: #935243;
     border: 1px solid #935243;
     border-radius: 5px;
+    font-family: 'Jost', sans-serif;
+    
 }
 
 .btn__nav-two:hover {
@@ -75,7 +82,7 @@
 
 main {
     height: 100%;
-    background-image: url(/assets/img/Page_3/main-bg.png);
+    background: url(/assets/img/Page_3/main-bg.png), black;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -101,7 +108,6 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 .border {
@@ -143,7 +149,6 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 .title-box__text {
@@ -158,7 +163,6 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 
@@ -200,13 +204,14 @@ main {
 .border-img {
     position: absolute;
     left: 615px;
-    bottom: 115px;
+    bottom: -5px;
 }
 
-.border-img img {
-    width: 590px;
-    height: 588px;
+.border-img__img {
+    width: 610px;
+    height: 650px;
 }
+
 
 .box-logo {
     display: flex;
@@ -222,7 +227,7 @@ main {
 .colums-container {
     max-width: 1170px;
     margin: 0 auto;
-    
+
     padding-bottom: 150px;
 }
 
@@ -256,7 +261,6 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
     text-transform: uppercase;
 }
 
@@ -283,7 +287,6 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 .price {
@@ -307,7 +310,7 @@ main {
     width: 270px;
     height: 60px;
     border-radius: 10px;
-    background: linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%);
+    background-image: url(/assets/img/Page_3/bg-btn.png), linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%);
     color: #774200;
     border: 2px solid #FFF61B;
     font-size: 18px;
@@ -315,6 +318,17 @@ main {
     line-height: 26px;
     font-family: 'Jost', sans-serif;
 
+}
+
+.captain__two:hover {
+    background: #BE460D, url(/assets/img/Page_3/bg-btn.png);
+    border: none;
+}
+
+.captain__one:hover {
+    background: white;
+    border: none;
+    color: black;
 }
 
 .coloner {
@@ -376,7 +390,7 @@ main {
     background: url(/assets/img/Page_1/Block_11/bg11.png), black;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .copyright__p,
@@ -392,6 +406,7 @@ main {
     max-width: 1170px;
     margin: 0 auto;
 }
+
 .footer__bottom {
     padding: 2% 0 2% 0;
     display: flex;
@@ -415,4 +430,3 @@ main {
 .contacts__link_margin {
     margin-right: 0px;
 }
-
