@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-div {
+/*div {
     border: solid 2px rgb(155, 216, 187)
-}
+}*/
 
 body {
     font-family: 'Jost';
@@ -198,6 +198,10 @@ body {
     justify-items: center;
 }
 
+.name-bullet1 {
+    margin-left: 206px;
+}
+
 
 .table div:hover {
     background: linear-gradient(180deg, #5B2B30 0%, #6B3935 57.29%, #A25B48 98.44%), rgba(196, 196, 196, 0.18);
@@ -215,9 +219,8 @@ body {
     margin-top: 3%;
 }
 
-
-
-.table p {
+.table h4,
+p {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 500;
