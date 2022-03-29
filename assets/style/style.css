@@ -416,6 +416,11 @@ body {
     background-size: contain;
 }
 
+/*Уменьшается при изменении окна браузера*/
+.img {
+    max-width: 100%;
+}
+
 /*Настроила рахмер хронологической линии*/
 .chronology__pict {
     max-width: 100%;
