@@ -15,7 +15,7 @@
 </head>
 
 <body>
-
+    <!--HEADER-->
     <header class="header">
 
         <nav class="nav">
@@ -47,38 +47,52 @@
                 </div>
 
             </div>
-
         </nav>
 
+        <!--HEADER TITLE
+        Я СДЕЛАЛА КОНТЕЙНЕР ПОД ЗАГОЛОВОК И СПИСОК, ТЕПЕРЬ ОН НИКУДА НЕ СЪЕЗЖАЕТ ПРИ ИЗМЕНЕНИИ РАЗМЕРОВ ЭКРАНА И СДЕЛАЛА ВСЁ ТЕКСТОМ-->
         <div class="header__title">
-
-            <div class="title">
-
-                <img src="/assets/img/Page_1/Block_1/title1.png" alt="meta">
-
-                <div class="title__list">
-                    <img src="/assets/img/Page_1/Block_1/list1.png" alt="list1">
+            <div class="title-container">
+                <div class="title-container__title">
+                    <img src="/assets/img/Page_1/Block_1/title1.png" alt="">
+                    <div class="title-container__text">
+                        <ul>
+                            <li>The Best First Person Shooter</li>
+                            <li> Built on Blockchain</li>
+                            <li> Play to Earn in VR</li>
+                            <li>Metaverse</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="button__title">
                     <button class="button__title-one">DECK</button>
                     <button class="button__title-two">COMMUNITY</button>
                 </div>
-
             </div>
-
         </div>
-
     </header>
+
 
     <main>
 
         <div class="main__trailer-about">
 
             <div class="trailer">
-
+                <!--ПЕРЕДЕЛАЛА ТРИ ИКОНКИ С ТЕКСТОМ НАД ВИДЕО В ЭЛЕМЕНТЫ ВМЕСТО КАРТИНКИ-->
                 <div class="tailer__characters">
-                    <img src="/assets/img/Page_1/Block_2/blocks.png" alt="blocks">
+                    <div>
+                        <img class="trailer-img" src="/assets/img/Page_1/Block_2/play_to_earn.png" alt="">
+                        <p class="trailer-text">Play to earn</p>
+                    </div>
+                    <div>
+                        <img class="trailer-img" src="/assets/img/Page_1/Block_2/new_trading.png" alt="">
+                        <p class="trailer-text">NFT Trading</p>
+                    </div>
+                    <div>
+                        <img class="trailer-img" src="/assets/img/Page_1/Block_2/free_to_play.png" alt="">
+                        <p class="trailer-text">Free to play</p>
+                    </div>
                 </div>
 
                 <div class="trailer__video">

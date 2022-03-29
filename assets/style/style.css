@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    height: 100vh;
+    
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.604)), url(/assets/img/Page_1/Block_1/linear1.png), url(/assets/img/Page_1/Block_1/bg1.png);
     background-size: cover;
     background-repeat: no-repeat no-repeat;
@@ -13,7 +13,7 @@ body {
 .nav-container {
     max-width: 1170px;
     height: 100%;
-    margin: 0 15% 0 15%;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,8 +89,24 @@ body {
     background-color: transparent;
 }
 
-.header__title {
-    margin: 10% 15% 0 15%;
+.title-container {
+    margin: 0px auto;
+    max-width: 1170px;
+}
+
+.title-container__title {
+    padding-top: 232px;
+}
+
+.title-container__text {
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 600;
+    
+}
+
+.title-container__text ul {
+    list-style-type: none;
 }
 
 .title__list {
@@ -156,6 +172,17 @@ body {
 
 .trailer {
     text-align: center;
+}
+
+.tailer__characters {
+    display: flex;
+    justify-content: space-between;
+    width: 922px;
+    margin: 0px auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+
 }
 
 .about {

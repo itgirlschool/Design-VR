@@ -245,13 +245,21 @@ main {
     background-size: cover;
     box-shadow: 0px 4px 40px rgba(255, 255, 63, 0.13), 0px 4px 4px rgba(0, 0, 0, 0.59);
     text-align: center;
+    position: relative;
+}
+
+.captain__logo, .coloner__logo, .general__logo {
+    position: absolute;
+    top: -40px;
+    left: 135px;
+
 }
 
 .captain__title,
 .coloner__title,
 .general__title {
     margin: 0px;
-    margin-top: 40px;
+    margin-top: 55px;
     font-family: 'Jost', sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -344,6 +352,7 @@ main {
     color: white;
     font-family: 'Jost', sans-serif;
     font-size: 14px;
+    position: relative;
 }
 
 .coloner__img,
@@ -382,6 +391,7 @@ main {
     background: none;
     box-shadow: 0px 4px 40px rgba(255, 255, 63, 0.13), 0px 4px 4px rgba(0, 0, 0, 0.59);
     text-align: center;
+    position: relative;
 
 }
 
