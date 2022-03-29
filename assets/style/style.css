@@ -409,6 +409,11 @@ body {
     margin-bottom: 3%;
 }
 
+/*Уменьшается при изменении окна браузера*/
+.waepon {
+    max-width: 100%;
+}
+
 .main__roadmap {
     padding-bottom: 5%;
     background: url(/assets/img/Page_1/Block_9/bg9.png), black;
