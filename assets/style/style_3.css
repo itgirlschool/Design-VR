@@ -8,7 +8,7 @@
 }
 
 .nav {
-    height: 119px;
+    height: 25vh;
     background-image: url(/assets/img/Page_3/bg.png);
 
 }
@@ -16,6 +16,7 @@
 .logo__img {
     width: 80px;
     height: 77px;
+    padding-right: 5px;
 }
 
 .navigation {
@@ -33,6 +34,7 @@
     line-height: 26px;
     font-weight: 400;
     font-style: normal;
+    padding-right: 5px;
 }
 
 .navigation__link:hover {
@@ -44,6 +46,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.social__icon {
+    padding-right: 5px;
 }
 
 .btn__nav-one {
@@ -111,7 +117,7 @@ main {
 }
 
 .border {
-    height: 473px;
+    height: 75vh;
     border: solid 3px #FF592C;
     border-radius: 25px;
     padding-top: 103px;
@@ -172,7 +178,8 @@ main {
 }
 
 .time-box {
-    max-width: 140px;
+    max-width: 7vw;
+    
 }
 
 .time-box:not(:last-child) {
@@ -203,13 +210,14 @@ main {
 
 .border-img {
     position: absolute;
-    left: 615px;
+    left: 650px;
     bottom: -5px;
+    
 }
 
 .border-img__img {
-    width: 610px;
-    height: 650px;
+    max-width: 100%;
+    
 }
 
 
