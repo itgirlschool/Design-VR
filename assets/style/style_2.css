@@ -130,13 +130,13 @@ body {
 
 .main-container {
     border: solid 2px rgb(245, 242, 63);
-    /* max-width: 1000px;
-    height: 100%; */
     margin: 0 auto;
-    width: 80%;
+    /* width: 80%; */
 
     display: grid;
-    justify-items: center;
+    grid-template-columns: repeat (5, 1fr);
+    /* justify-items: center; */
+
 }
 
 .page-name {
@@ -164,18 +164,16 @@ body {
 }
 
 .table-container {
-    /* display: grid; */
-    /* max-height: 100%; */
-    max-width: 100%;
-    margin: 0 20% 0;
-    border: solid 2px red;
+    margin: 0 auto;
+    /* width: 80%; */
 
+    border: solid 2px red;
 }
 
 .table {
-    border: solid 2px pink;
-    /* height: 100%; */
-    width: 100%;
+    border: solid 2px rgb(164, 255, 61);
+
+    /* width: 100%; */
 
     display: grid;
     grid-template-columns: repeat(4, 294px);
@@ -184,17 +182,8 @@ body {
     background: rgba(196, 196, 196, 0.18);
 }
 
-.team-blocks {
-    display: grid;
-    /* width: 70vw; */
-    border: #935243 solid 2px;
-}
 
-.team-blocks img {
-    width: 100%;
-    height: auto;
-    justify-items: center;
-}
+
 
 .name-bullet1 {
     margin-left: 206px;
@@ -247,7 +236,97 @@ p {
     border-radius: 0px 0px 15px 0px;
 }
 
+
+/* BORDERS */
 .footer {
+    border: red 3px solid;
+}
+
+.footer-container {
+    border: rgb(75, 243, 103) 3px solid;
+}
+
+.footer__bottom {
+    border: rgb(255, 255, 255) 3px solid;
+}
+
+.footer-bottom__copyright {
+    border: rgb(234, 255, 0) 3px solid;
+}
+
+.footer-bottom__contacts-social {
+    border: rgb(255, 0, 170) 3px solid;
+}
+
+.contacts-media {
+    border: rgb(0, 149, 255) 3px solid;
+}
+
+.contacts__us {
+    border: rgb(255, 137, 3) 3px solid;
+}
+
+.contacts__link {
+    border: rgb(115, 0, 255) 3px solid;
+}
+
+________________________
+/* BORDERS */
+/* .footer {
+    border: solid 3px rgb(255, 0, 170);
+}
+
+.footer {
+    text-align: center;
+    opacity: 100;
+    
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.copyright__p,
+.contacts__us {
+    color: white;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+.footer-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.footer__bottom {
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0);
+}
+
+.footer-bottom__contacts-social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__us {
+    padding-right: 40px;
+}
+
+.contacts__link {
+    margin-right: 25px;
+}
+
+.contacts__link_margin {
+    margin-right: 0px;
+} */
+
+/* Футер с индекс 3 */
+/* .footer {
     text-align: center;
     background: url(/assets/img/Page_1/Block_11/bg11.png), black;
     background-repeat: no-repeat;
@@ -291,13 +370,14 @@ p {
 
 .contacts__link_margin {
     margin-right: 0px;
-}
+} */
 
 /* .footer {
     text-align: center;
-    background: url(/assets/img/Page_1/Block_11/bg11.png), rgba(0, 0, 0, 0.323);
+    background: url(/assets/img/Page_1/Block_11/bg11.png), black;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .copyright__p,
@@ -310,24 +390,20 @@ p {
 }
 
 .footer-container {
-    max-width: 80%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 10%;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .footer__bottom {
     padding: 2% 0 2% 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background: rgba(0, 0, 0, 0.323);
 }
 
 .footer-bottom__contacts-social {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 .contacts__us {
@@ -335,7 +411,6 @@ p {
 }
 
 .contacts__link {
-
     margin-right: 25px;
 }
 
