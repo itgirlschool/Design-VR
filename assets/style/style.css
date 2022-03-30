@@ -210,7 +210,8 @@ body {
     padding-bottom: 119px;
 }
 
-.videoblock {
+.videoblock,
+.metaverse__vr-video {
     max-width: 1030px;
     width: 100%;
     margin: 0 auto;
@@ -226,11 +227,9 @@ body {
 
 .about {
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
-
 }
 
 .about__what {
-
     background: url(/assets/img/Page_1/Block_3/left-block.png);
     background-repeat: no-repeat;
 }
@@ -242,7 +241,6 @@ body {
 
 .about__what img {
     padding-top: 135px;
-
 }
 
 .about__what-p {
@@ -286,7 +284,6 @@ body {
 .boxes-choose {
     width: 370px;
     height: 448px;
-
 }
 
 .nft-box__p {
@@ -309,7 +306,6 @@ body {
 }
 
 .main__nft-equipments {
-
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.138);
     background: url(/assets/img/Page_1/Block_5/bullets.png), black;
@@ -350,6 +346,11 @@ body {
     font-size: 18px;
 }
 
+.vr-video iframe {
+    width: 100% !important;
+    height: 560px !important;
+}
+
 .main__concept-token {
     padding-top: 5%;
     border-top: 1px solid rgba(255, 255, 255, 0.138);
@@ -367,7 +368,6 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-
 }
 
 .concept__flex {
@@ -387,7 +387,6 @@ body {
 }
 
 .right-block__right-title {
-
     min-width: 534px;
     min-height: 65px;
     text-align: center;
@@ -398,7 +397,6 @@ body {
     align-items: center;
     color: white;
     text-shadow: 0px 1.83178px 0px rgba(152, 97, 86, 0.35);
-
 }
 
 .right-block__right-title img {
@@ -409,7 +407,6 @@ body {
 
 .right-block__right-title h3 {
     display: inline;
-
 }
 
 .right-text {
@@ -457,7 +454,7 @@ body {
     width: 30%;
 }
 
-.TOKEN-CONTENT {
+.token-concept {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -498,14 +495,11 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
-
 }
 
 .stars-text__item img {
     width: 23px;
     height: 21px;
-
-
 }
 
 .right-img {
@@ -554,6 +548,7 @@ body {
 
 .team__p {
     padding-top: 2%;
+    color: white;
 }
 
 .team__table {
@@ -624,9 +619,8 @@ body {
     background: url(/assets/img/Page_1/Block_11/bg11.png), black;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
-
-
 
 .footer__bottom {
     padding: 2% 0 2% 0;
