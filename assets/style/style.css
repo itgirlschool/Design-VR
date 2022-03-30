@@ -1,10 +1,10 @@
 body {
     font-family: 'Jost';
-    
+
 }
 
 .header {
-    
+
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.604)), url(/assets/img/Page_1/Block_1/linear1.png), url(/assets/img/Page_1/Block_1/bg1.png);
     background-size: cover;
     background-repeat: no-repeat no-repeat;
@@ -102,7 +102,7 @@ body {
     text-transform: uppercase;
     font-size: 27px;
     font-weight: 600;
-    
+
 }
 
 .title-container__text ul {
@@ -192,11 +192,11 @@ body {
 
 .about {
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
-    
+
 }
 
 .about__what {
-    
+
     background: url(/assets/img/Page_1/Block_3/left-block.png);
     background-repeat: no-repeat;
 }
@@ -281,7 +281,7 @@ body {
     font-weight: 700;
     font-size: 43px;
     color: white;
-    
+
 }
 
 .concept__flex {
@@ -296,22 +296,22 @@ body {
 .left-block__p {
     color: white;
     font-weight: 400;
-font-size: 18px;
+    font-size: 18px;
 
 }
 
 .right-block__right-title {
-    
+
     min-width: 534px;
     min-height: 65px;
     text-align: center;
     background: linear-gradient(180deg, #5B2B30 -90.77%, #6B3935 12.11%, #A25B48 97.02%);
-border-radius: 5.49533px 5.49533px 0px 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-text-shadow: 0px 1.83178px 0px rgba(152, 97, 86, 0.35);
+    border-radius: 5.49533px 5.49533px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0px 1.83178px 0px rgba(152, 97, 86, 0.35);
 
 }
 
@@ -323,19 +323,19 @@ text-shadow: 0px 1.83178px 0px rgba(152, 97, 86, 0.35);
 
 .right-block__right-title h3 {
     display: inline;
-    
+
 }
 
 .right-text {
     background: rgba(0, 0, 0, 0.29);
-border: 3px solid #515050;
-box-sizing: border-box;
-border-radius: 0px 0px 25px 25px;
-text-transform: uppercase;
-font-weight: 600;
-font-size: 20px;
-color: rgba(255, 255, 255, 0.68);
-margin-bottom: 40px;
+    border: 3px solid #515050;
+    box-sizing: border-box;
+    border-radius: 0px 0px 25px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.68);
+    margin-bottom: 40px;
 }
 
 .left-block__btns {
@@ -343,7 +343,8 @@ margin-bottom: 40px;
 }
 
 .left-block__btn2 {
-    color: #C4C4C4;;
+    color: #C4C4C4;
+    ;
 }
 
 .main__token {
@@ -453,8 +454,6 @@ margin-bottom: 40px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 .footer__bottom {
     padding: 2% 0 2% 0;
