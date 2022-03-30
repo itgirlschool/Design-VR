@@ -178,7 +178,7 @@ body {
     padding-top: 5%;
     border-top: 1px solid rgba(255, 255, 255, 0.035);
     background: url(/assets/img/Page_1/Block_2/bg-trailer.png), rgba(0, 0, 0, 0.905);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -204,6 +204,24 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.trailer__videoblock {
+    padding-bottom: 119px;
+}
+
+.videoblock {
+    max-width: 1030px;
+    width: 100%;
+    margin: 0 auto;
+    border: 10px solid #615e5e;
+    border-radius: 21px;
+    transition: all 0.3s ease-in-out;
+}
+
+.videoblock iframe {
+    width: 100% !important;
+    height: 560px !important;
 }
 
 .about {
@@ -486,9 +504,10 @@ body {
 .stars-text__item img {
     width: 23px;
     height: 21px;
-    
+
 
 }
+
 .right-img {
     width: 550px;
     height: 550px;
