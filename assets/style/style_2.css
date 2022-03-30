@@ -131,10 +131,12 @@ body {
 .main-container {
     border: solid 2px rgb(245, 242, 63);
     margin: 0 auto;
-    width: 80%;
+    /* width: 80%; */
 
     display: grid;
-    justify-items: center;
+    grid-template-columns: repeat (5, 1fr);
+    /* justify-items: center; */
+
 }
 
 .page-name {
@@ -163,15 +165,15 @@ body {
 
 .table-container {
     margin: 0 auto;
-    width: 80%;
+    /* width: 80%; */
 
     border: solid 2px red;
 }
 
 .table {
-    border: solid 2px pink;
+    border: solid 2px rgb(164, 255, 61);
 
-    width: 100%;
+    /* width: 100%; */
 
     display: grid;
     grid-template-columns: repeat(4, 294px);
@@ -180,17 +182,8 @@ body {
     background: rgba(196, 196, 196, 0.18);
 }
 
-.team-blocks {
-    display: grid;
-    /* width: 70vw; */
-    border: #935243 solid 2px;
-}
 
-.team-blocks img {
-    width: 100%;
-    height: auto;
-    justify-items: center;
-}
+
 
 .name-bullet1 {
     margin-left: 206px;
@@ -243,10 +236,50 @@ p {
     border-radius: 0px 0px 15px 0px;
 }
 
+
+/* BORDERS */
+.footer {
+    border: red 3px solid;
+}
+
+.footer-container {
+    border: rgb(75, 243, 103) 3px solid;
+}
+
+.footer__bottom {
+    border: rgb(255, 255, 255) 3px solid;
+}
+
+.footer-bottom__copyright {
+    border: rgb(234, 255, 0) 3px solid;
+}
+
+.footer-bottom__contacts-social {
+    border: rgb(255, 0, 170) 3px solid;
+}
+
+.contacts-media {
+    border: rgb(0, 149, 255) 3px solid;
+}
+
+.contacts__us {
+    border: rgb(255, 137, 3) 3px solid;
+}
+
+.contacts__link {
+    border: rgb(115, 0, 255) 3px solid;
+}
+
+________________________
+/* BORDERS */
+/* .footer {
+    border: solid 3px rgb(255, 0, 170);
+}
+
 .footer {
     text-align: center;
     opacity: 100;
-    /* Цвет фона */
+    
     padding: 5px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,6 +294,7 @@ p {
     font-size: 18px;
     line-height: 26px;
 }
+
 
 .footer-container {
     max-width: 1170px;
@@ -289,7 +323,7 @@ p {
 
 .contacts__link_margin {
     margin-right: 0px;
-}
+} */
 
 /* Футер с индекс 3 */
 /* .footer {

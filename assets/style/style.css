@@ -1,10 +1,23 @@
 body {
     font-family: 'Jost';
 
+<<<<<<< HEAD
 }
 
 .header {
 
+=======
+}
+
+/*убрала белый отступ сбоку*/
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+>>>>>>> d34f194a1b8549068f4f660407a18aac458117c9
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.604)), url(/assets/img/Page_1/Block_1/linear1.png), url(/assets/img/Page_1/Block_1/bg1.png);
     background-size: cover;
     background-repeat: no-repeat no-repeat;
@@ -102,6 +115,10 @@ body {
     text-transform: uppercase;
     font-size: 27px;
     font-weight: 600;
+<<<<<<< HEAD
+=======
+    color: rgba(255, 255, 255, 0.68);
+>>>>>>> d34f194a1b8549068f4f660407a18aac458117c9
 
 }
 
@@ -179,6 +196,7 @@ body {
     text-align: center;
 }
 
+
 .tailer__characters {
     display: flex;
     justify-content: space-between;
@@ -187,7 +205,11 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 30px;
+}
 
+.trailer-text {
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 
 .about {
@@ -215,6 +237,8 @@ body {
     font-size: 18px;
     width: 600px;
     padding-bottom: 255px;
+    color: white;
+    margin: 0px;
 }
 
 .main__nft-box {
@@ -224,8 +248,41 @@ body {
     background-size: cover;
 }
 
+.nft-container {
+    max-width: 1170px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.nft__title {
+    font-weight: 700;
+    font-size: 43px;
+    color: white;
+}
+
+.nft__title h2 {
+    margin: 0;
+}
+
+.boxes-choose {
+    width: 370px;
+    height: 448px;
+
+}
+
+.nft-box__p {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
 .boxes-choose:hover {
     transform: scale(1.1);
+}
+
+.nft-box__boxes-choose {
+    padding-bottom: 251px;
+
 }
 
 .main__nft-equipments {
@@ -362,11 +419,27 @@ body {
     margin-bottom: 3%;
 }
 
+/*Уменьшается при изменении окна браузера*/
+.waepon {
+    max-width: 100%;
+}
+
 .main__roadmap {
     padding-bottom: 5%;
     background: url(/assets/img/Page_1/Block_9/bg9.png), black;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+/*Уменьшается при изменении окна браузера*/
+.img {
+    max-width: 100%;
+}
+
+/*Настроила рахмер хронологической линии*/
+.chronology__pict {
+    max-width: 100%;
+
 }
 
 .roadmap__title {
