@@ -1,3 +1,8 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #6625d6 #b0b7c4;
+}
+
 body {
     font-family: 'Jost';
 
@@ -176,7 +181,6 @@ body {
 
 .main__trailer-about {
     padding-top: 5%;
-    border-top: 1px solid rgba(255, 255, 255, 0.035);
     background: url(/assets/img/Page_1/Block_2/bg-trailer.png), rgba(0, 0, 0, 0.905);
     background-size: cover;
     background-repeat: no-repeat;
@@ -307,7 +311,6 @@ body {
 
 .main__nft-equipments {
     text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.138);
     background: url(/assets/img/Page_1/Block_5/bullets.png), black;
     background-size: contain;
     background-repeat: no-repeat;
@@ -317,7 +320,7 @@ body {
     display: flex;
     justify-content: center;
     transition: 1s;
-    padding-bottom: 13%;
+    padding-bottom: 5%;
 }
 
 .weapons-choose {
@@ -353,7 +356,6 @@ body {
 
 .main__concept-token {
     padding-top: 5%;
-    border-top: 1px solid rgba(255, 255, 255, 0.138);
     background: url(/assets/img/Page_1/Block_7/bg7.png), black;
     background-repeat: no-repeat;
     background-size: contain;
@@ -438,6 +440,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .token-title {
@@ -528,10 +531,236 @@ body {
     max-width: 100%;
 }
 
-/*Настроила рахмер хронологической линии*/
-.chronology__pict {
-    max-width: 100%;
+.maintitle {
+    font-weight: bold;
+    font-size: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
 
+.colorgradient {
+    background: -webkit-linear-gradient(#d2d8de, #feffff, #c0c3c6, #b6bbbf, #acb2b7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chronology__inside {
+    position: relative;
+    padding-top: 375px;
+    padding-bottom: 430px;
+}
+
+.chronology__line {
+    position: relative;
+}
+
+.chronology__line::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: calc(50% - 210px);
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background: #e4c940;
+    z-index: 2;
+}
+
+.chronology__lineinside {
+    background: linear-gradient(294.72deg, #ff4581 9.05%, #4388dd 79.28%);
+    opacity: 0.1;
+    width: 100%;
+    height: 14px;
+    margin-bottom: -30px;
+}
+
+.chronology__line::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background: rgba(228, 201, 64, 0.09);
+}
+
+.containers__chronology {
+    max-width: 1210px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chronology__row {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chronology__item {
+    flex-basis: 25%;
+    position: relative;
+}
+
+.chronology__dot {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    height: 46px;
+    width: 46px;
+    background: linear-gradient(180deg, rgba(210, 216, 222, 0.31) 0%, rgba(254, 255, 255, 0.31) 23.96%, rgba(192, 195, 198, 0.31) 50.52%, rgba(182, 187, 191, 0.31) 79.69%, rgba(172, 178, 183, 0.31) 98.44%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chronology__dot::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(180deg, #d2d8de 0%, #feffff 23.96%, #c0c3c6 50.52%, #b6bbbf 79.69%, #acb2b7 98.44%);
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.chronology__dot::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3px;
+    background: #5e5d5d;
+    height: 103px;
+    top: 34px;
+}
+
+.chronology__dotgold {
+    background: rgba(255, 190, 67, 0.21);
+}
+
+.chronology__dotgold::before {
+    background: linear-gradient(180deg, #ffa12a 0%, #feef6d 100%), #e4c940;
+    box-shadow: 0px 4.45205px 31.1644px rgba(255, 179, 0, 0.59);
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.chronology__list li {
+    font-size: 16px;
+    margin-bottom: 17px;
+    line-height: 1.43;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.chronology__title {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.chronology__list {
+    position: absolute;
+}
+
+.chronology__item1 .chronology__title {
+    top: -46px;
+    left: 37%;
+}
+
+.chronology__item1 .chronology__dot {
+    margin-left: 57%;
+}
+
+.chronology__item1 .chronology__list {
+    top: 168px;
+    left: 19%;
+    min-width: 250px;
+}
+
+.chronology__item2 .chronology__dot {
+    margin-left: 52%;
+}
+
+.chronology__item2 .chronology__dot::after {
+    top: -90px;
+}
+
+.chronology__item2 .chronology__title {
+    top: 67px;
+    left: 43%;
+}
+
+.chronology__item2 .chronology__list {
+    bottom: 153px;
+    left: 22%;
+    min-width: 260px;
+}
+
+.chronology__item3 .chronology__dot {
+    margin-left: 44%;
+}
+
+.chronology__item3 .chronology__title {
+    top: -46px;
+    left: 34%;
+}
+
+.chronology__item3 .chronology__list {
+    top: 168px;
+    left: -10%;
+    min-width: 315px;
+}
+
+.chronology__item4 .chronology__dot {
+    margin-left: 29%;
+}
+
+.chronology__item4 .chronology__dot::after {
+    top: -90px;
+}
+
+.chronology__item4 .chronology__title {
+    top: 67px;
+    left: 20%;
+}
+
+.chronology__item4 .chronology__list {
+    bottom: 150px;
+    left: -11%;
+    min-width: 250px;
+}
+
+.chronology__item5 .chronology__dot {
+    margin-left: 46%;
+}
+
+.chronology__item5 .chronology__title {
+    top: -46px;
+    left: 11%;
+}
+
+.chronology__item5 .chronology__list {
+    top: 168px;
+    left: 14%;
+    min-width: 250px;
 }
 
 .roadmap__title {
