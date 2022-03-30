@@ -183,12 +183,6 @@ body {
 }
 
 
-
-
-.name-bullet1 {
-    margin-left: 206px;
-}
-
 .table div:hover {
     background: linear-gradient(180deg, #5B2B30 0%, #6B3935 57.29%, #A25B48 98.44%), rgba(196, 196, 196, 0.18);
 }
@@ -270,7 +264,44 @@ p {
     border: rgb(115, 0, 255) 3px solid;
 }
 
-________________________
+.footer__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.footer {
+    text-align: center;
+    background: url(/assets/img/Page_1/Block_11/bg11.png), black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.footer__bottom {
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.323);
+}
+
+.footer-bottom__contacts-social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__us {
+    padding-right: 40px;
+}
+
+.contacts__link {
+    margin-right: 25px;
+}
+
+.contacts__link_margin {
+    margin-right: 0px;
+}
+
 /* BORDERS */
 /* .footer {
     border: solid 3px rgb(255, 0, 170);
