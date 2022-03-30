@@ -188,7 +188,7 @@ body {
     padding-top: 5%;
     border-top: 1px solid rgba(255, 255, 255, 0.035);
     background: url(/assets/img/Page_1/Block_2/bg-trailer.png), rgba(0, 0, 0, 0.905);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -210,15 +210,36 @@ body {
 .trailer-text {
     margin-top: 0px;
     margin-bottom: 40px;
+    background: linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%), rgba(255, 255, 255, 0.68);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.trailer__videoblock {
+    padding-bottom: 119px;
+}
+
+.videoblock,
+.metaverse__vr-video {
+    max-width: 1030px;
+    width: 100%;
+    margin: 0 auto;
+    border: 10px solid #615e5e;
+    border-radius: 21px;
+    transition: all 0.3s ease-in-out;
+}
+
+.videoblock iframe {
+    width: 100% !important;
+    height: 560px !important;
 }
 
 .about {
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
-
 }
 
 .about__what {
-
     background: url(/assets/img/Page_1/Block_3/left-block.png);
     background-repeat: no-repeat;
 }
@@ -230,7 +251,6 @@ body {
 
 .about__what img {
     padding-top: 135px;
-
 }
 
 .about__what-p {
@@ -246,6 +266,7 @@ body {
     background: url(/assets/img/Page_1/Block_4/bg4.png), rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 150px;
 }
 
 .nft-container {
@@ -256,8 +277,14 @@ body {
 
 .nft__title {
     font-weight: 700;
+    text-transform: uppercase;
     font-size: 43px;
-    color: white;
+    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
 }
 
 .nft__title h2 {
@@ -267,13 +294,16 @@ body {
 .boxes-choose {
     width: 370px;
     height: 448px;
-
 }
 
 .nft-box__p {
     font-weight: 400;
     font-size: 18px;
     color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 27px;
+    margin-bottom: 51px;
 }
 
 .boxes-choose:hover {
@@ -286,7 +316,6 @@ body {
 }
 
 .main__nft-equipments {
-    padding-top: 5%;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.138);
     background: url(/assets/img/Page_1/Block_5/bullets.png), black;
@@ -298,6 +327,7 @@ body {
     display: flex;
     justify-content: center;
     transition: 1s;
+    padding-bottom: 13%;
 }
 
 .weapons-choose {
@@ -322,6 +352,13 @@ body {
 
 .metaverse__p {
     margin-bottom: 5%;
+    color: white;
+    font-size: 18px;
+}
+
+.vr-video iframe {
+    width: 100% !important;
+    height: 560px !important;
 }
 
 .main__concept-token {
@@ -337,8 +374,10 @@ body {
     text-align: center;
     font-weight: 700;
     font-size: 43px;
-    color: white;
-
+    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .concept__flex {
@@ -358,7 +397,6 @@ body {
 }
 
 .right-block__right-title {
-
     min-width: 534px;
     min-height: 65px;
     text-align: center;
@@ -369,7 +407,6 @@ body {
     align-items: center;
     color: white;
     text-shadow: 0px 1.83178px 0px rgba(152, 97, 86, 0.35);
-
 }
 
 .right-block__right-title img {
@@ -380,7 +417,6 @@ body {
 
 .right-block__right-title h3 {
     display: inline;
-
 }
 
 .right-text {
@@ -405,18 +441,84 @@ body {
 }
 
 .main__token {
-    background: url(/assets/img/Page_1/Block_8/bg8.png), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.604));
+    background: url(/assets/img/Page_1/Block_8/Group\ 40.png), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.604));
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
 }
 
-.token__left {
-    padding: 10% 0 10% 20%;
+.token-title {
+    font-weight: 700;
+    font-size: 43px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #D2D8DE 0%, #FEFFFF 23.96%, #C0C3C6 50.52%, #B6BBBF 79.69%, #ACB2B7 98.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-.token-left__title,
-.token-left__token-cost {
-    margin-bottom: 3%;
+.left-content {
+    width: 30%;
+}
+
+.token-concept {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 106px;
+    background: rgba(196, 196, 196, 0.1);
+    border: 2px solid #515050;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+.content__title {
+    font-weight: 600;
+    font-size: 24px;
+    background: linear-gradient(180deg, #FFA12A 0%, #FEEF6D 100%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0px;
+}
+
+.content__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+
+
+.stars-text__text {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.stars-text__item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.stars-text__item img {
+    width: 23px;
+    height: 21px;
+}
+
+.right-img {
+    width: 550px;
+    height: 550px;
+}
+
+.right-img__img {
+    max-width: 100%;
 }
 
 /*Уменьшается при изменении окна браузера*/
@@ -456,6 +558,7 @@ body {
 
 .team__p {
     padding-top: 2%;
+    color: white;
 }
 
 .team__table {
@@ -526,6 +629,7 @@ body {
     background: url(/assets/img/Page_1/Block_11/bg11.png), black;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 .footer__bottom {

@@ -14,9 +14,10 @@
 }
 
 .logo__img {
-    width: 80px;
-    height: 77px;
+    width: 100%;
+    
     padding-right: 5px;
+    max-width: 100%;
 }
 
 .navigation {
@@ -96,6 +97,7 @@ main {
 .main-container {
     max-width: 1170px;
     margin: 0 auto;
+    padding-bottom: 115px;
 }
 
 .title {
@@ -117,20 +119,22 @@ main {
 }
 
 .border {
-    height: 75vh;
+    height: 40%;
     border: solid 3px #FF592C;
     border-radius: 25px;
-    padding-top: 103px;
-    padding-left: 67px;
     margin-top: 80px;
     box-shadow: 0px 4px 40px rgba(255, 61, 22, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.59);
     background: rgba(0, 0, 0, 0.48);
     display: flex;
     position: relative;
+    justify-content: start;
 }
 
 .border-content {
     z-index: 2;
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .closes {
@@ -220,22 +224,9 @@ main {
     
 }
 
-
-.box-logo {
-    display: flex;
-    justify-content: space-around;
-}
-
-.box-container {
-    max-width: 1170px;
-    margin: 0 auto;
-    margin-top: 115px;
-}
-
 .colums-container {
     max-width: 1170px;
     margin: 0 auto;
-
     padding-bottom: 150px;
 }
 
