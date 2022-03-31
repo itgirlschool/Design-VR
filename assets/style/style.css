@@ -117,7 +117,27 @@ body {
 }
 
 .title-container__text ul {
+    padding-left: 0;
     list-style-type: none;
+}
+
+.title-container__text li {
+	padding-left: 55px;
+	position: relative;
+	line-height: 196.5%;
+}
+
+.title-container__text li::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 35px;
+	height: 35px;
+	background-image: url(/assets/img/Page_1/Block_1/marker.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .title__list {
@@ -380,6 +400,30 @@ body {
     margin-right: 5%;
 }
 
+.right-text li {
+	position: relative;
+	display: block;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 196.5%;
+	opacity: 0.67;
+	text-transform: uppercase;
+	padding-left: 50px;
+}
+
+.right-block li::before {
+        content: "";
+        width: 26px;
+        height: 26px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 6px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/assets/img/Page_1/Block_1/marker.png);
+}
+
 .left-block__p {
     color: white;
     font-weight: 400;
@@ -418,7 +462,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.68);
+    color: rgb(255, 255, 255);
     margin-bottom: 40px;
 }
 
