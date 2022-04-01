@@ -8,7 +8,7 @@
 }
 
 .nav {
-    height: 25vh;
+    height: 17vh;
     background-image: url(/assets/img/Page_3/bg.png);
 
 }
@@ -108,7 +108,6 @@ main {
 
 .title__title {
     font-size: 43px;
-    line-height: 62px;
     font-weight: 700;
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
@@ -191,12 +190,11 @@ main {
 }
 
 .time-box__item {
-    width: 139px;
+    width: 9vw;
     height: 76px;
     background-color: #FF592C;
     color: white;
     font-size: 57px;
-    line-height: 75px;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     margin-right: 38px;
