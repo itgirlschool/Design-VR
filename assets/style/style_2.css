@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
-div {
-    border: solid 2px rgb(155, 216, 187)
-}
-
 body {
     font-family: 'Jost';
+}
+
+/* РАЗМЕТКА */
+/* div {
+    border: solid 2px rgb(155, 216, 187)
+} */
+
+@media (min-width: 1200px) {
+    .table {
+        display: none;
+        /* grid-template-columns: repeat(3, 294px);
+        grid-template-rows: repeat(7, 219px);
+
+        background: rgba(196, 196, 196, 0.18); */
+    }
 }
 
 .body {
@@ -129,7 +140,7 @@ body {
 
 
 .main-container {
-    border: solid 2px rgb(245, 242, 63);
+    /* border: solid 2px rgb(245, 242, 63); */
     margin: 0 auto;
     /* width: 80%; */
 
@@ -145,7 +156,7 @@ body {
     align-items: center;
     margin-top: 3%;
 
-    border: solid 2px rgb(211, 67, 236);
+    /* border: solid 2px rgb(211, 67, 236); */
 }
 
 .page__title {
@@ -167,11 +178,11 @@ body {
     margin: 0 auto;
     /* width: 80%; */
 
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 .table {
-    border: solid 2px rgb(164, 255, 61);
+    /* border: solid 2px rgb(164, 255, 61); */
 
     /* width: 100%; */
 
@@ -211,12 +222,13 @@ p {
     margin-left: 15%;
     margin-top: 20%;
 
-    border: solid 2px green;
+    /* border: solid 2px rgb(128, 0, 111); */
 }
 
 .table4 {
     border-radius: 0px 15px 0px 0px;
 }
+
 
 .table17 {
     border-radius: 0px 0px 0px 15px;
@@ -232,8 +244,8 @@ p {
 
 
 /* BORDERS */
-.footer {
-    border: red 3px solid;
+/* .footer { */
+/* border: red 3px solid;
 }
 
 .footer-container {
@@ -262,13 +274,7 @@ p {
 
 .contacts__link {
     border: rgb(115, 0, 255) 3px solid;
-}
-
-.footer__bottom {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
+} */
 
 .footer {
     text-align: center;
@@ -302,93 +308,33 @@ p {
     margin-right: 0px;
 }
 
-/* BORDERS */
-/* .footer {
-    border: solid 3px rgb(255, 0, 170);
-}
-
-.footer {
-    text-align: center;
-    opacity: 100;
-    
-    padding: 5px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.copyright__p,
-.contacts__us {
-    color: white;
-    font-weight: 400;
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    line-height: 26px;
-}
-
-
-.footer-container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.footer__bottom {
-    padding: 2% 0 2% 0;
-    display: flex;
-    justify-content: space-between;
-    background: rgba(0, 0, 0, 0);
-}
-
-.footer-bottom__contacts-social {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contacts__us {
-    padding-right: 40px;
-}
-
-.contacts__link {
-    margin-right: 25px;
-}
-
-.contacts__link_margin {
-    margin-right: 0px;
-} */
-
-/* Футер с индекс 3 */
-/* .footer {
+/* РАЗМЕТКА */
+/*.footer { 
     text-align: center;
     background: url(/assets/img/Page_1/Block_11/bg11.png), black;
     background-repeat: no-repeat;
     background-size: cover;
-
-}
-
-.copyright__p,
-.contacts__us {
     color: white;
-    font-weight: 400;
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    line-height: 26px;
-}
 
-.footer-container {
-    max-width: 1170px;
-    margin: 0 auto;
+    margin-left: 9%;
+    margin-right: 9%;
+
 }
 
 .footer__bottom {
     padding: 2% 0 2% 0;
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
+
+    justify-content: space-around;
     background: rgba(0, 0, 0, 0.323);
 }
 
 .footer-bottom__contacts-social {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .contacts__us {
@@ -401,50 +347,20 @@ p {
 
 .contacts__link_margin {
     margin-right: 0px;
-} */
-
-/* .footer {
-    text-align: center;
-    background: url(/assets/img/Page_1/Block_11/bg11.png), black;
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
 
-.copyright__p,
-.contacts__us {
-    color: white;
+.footer-bottom__copyright {
+    display: flex;
+    justify-items: flex-start;
+}
+
+.copyright__p {
+    font-family: 'Jost';
+    font-style: normal;
     font-weight: 400;
-    font-family: 'Jost', sans-serif;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 22px;
+
 }
 
-.footer-container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.footer__bottom {
-    padding: 2% 0 2% 0;
-    display: flex;
-    justify-content: space-between;
-    background: rgba(0, 0, 0, 0.323);
-}
-
-.footer-bottom__contacts-social {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contacts__us {
-    padding-right: 40px;
-}
-
-.contacts__link {
-    margin-right: 25px;
-}
-
-.contacts__link_margin {
-    margin-right: 0px;
-} */
+*/
