@@ -1,0 +1,31 @@
+.footer {
+    border: red 3px solid;
+}
+
+.footer-container {
+    border: rgb(75, 243, 103) 3px solid;
+}
+
+.footer__bottom {
+    border: rgb(255, 255, 255) 3px solid;
+}
+
+.footer-bottom__copyright {
+    border: rgb(234, 255, 0) 3px solid;
+}
+
+.footer-bottom__contacts-social {
+    border: rgb(255, 0, 170) 3px solid;
+}
+
+.contacts-media {
+    border: rgb(0, 149, 255) 3px solid;
+}
+
+.contacts__us {
+    border: rgb(255, 137, 3) 3px solid;
+}
+
+.contacts__link {
+    border: rgb(115, 0, 255) 3px solid;
+}
