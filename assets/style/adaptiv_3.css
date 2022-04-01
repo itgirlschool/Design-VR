@@ -7,7 +7,7 @@
     .nav {
         height: 20vh;
         background-image: url(/assets/img/Page_3/bg.png);
-    
+
     }
 
     .title {
@@ -36,7 +36,17 @@
         height: 76px;
         font-size: 40px;
     }
-    
+
+    .border-img {
+        left: 550px;
+
+    }
+
+    .border-img__img {
+        max-width: 38vw;
+
+    }
+
 
     .colums-container {
         max-width: 992px;
@@ -44,16 +54,20 @@
         padding-bottom: 150px;
     }
 
-    .captain, .coloner, .general {
+    .captain,
+    .coloner,
+    .general {
         width: 300px;
-    
+
     }
 
-    .captain__logo, .coloner__logo, .general__logo {
+    .captain__logo,
+    .coloner__logo,
+    .general__logo {
         position: absolute;
         top: -40px;
         left: 100px;
-    
+
     }
 
     .box-text {
@@ -61,14 +75,14 @@
         font-family: 'Jost', sans-serif;
         font-size: 14px;
         margin: 0 auto;
-        
+
     }
 
     .footer-container {
         max-width: 992px;
         margin: 0 auto;
     }
-    
+
 }
 
 
@@ -87,7 +101,7 @@
         height: 11vh;
         font-size: 12px;
     }
-    
+
 
     .btn__nav-two {
         width: 10vw;
@@ -122,15 +136,16 @@
     }
 
     .time-box__item {
-        width: 80px;
+        width: 90px;
         height: 50px;
         font-size: 30px;
+        padding-top: 17%;
     }
 
     .border-img {
-        width: 50%;
+        width: 40%;
         position: absolute;
-        left: 450px;
+        left: 400px;
         bottom: -5px;
     }
 
@@ -141,16 +156,20 @@
         padding-bottom: 150px;
     }
 
-    .captain, .coloner, .general {
+    .captain,
+    .coloner,
+    .general {
         width: 230px;
-    
+
     }
 
-    .captain__logo, .coloner__logo, .general__logo {
+    .captain__logo,
+    .coloner__logo,
+    .general__logo {
         position: absolute;
         top: -40px;
         left: 65px;
-    
+
     }
 
     .box-text {
@@ -158,33 +177,33 @@
         font-family: 'Jost', sans-serif;
         font-size: 12px;
         margin: 0 auto;
-        
+
     }
 
-    
-.captain__one {
-    width: 180px;
-    height: 50px;
-    font-size: 14px;
-}
 
-.captain__two {
-    width: 180px;
-    height: 50px;
-    font-size: 14px;
-}
+    .captain__one {
+        width: 180px;
+        height: 50px;
+        font-size: 14px;
+    }
 
-.captain {
-    height: 480px;
-}
+    .captain__two {
+        width: 180px;
+        height: 50px;
+        font-size: 14px;
+    }
 
-.coloner {
-    height: 1060px;
-}
+    .captain {
+        height: 480px;
+    }
 
-.general {
-    height: 1360px;
-}
+    .coloner {
+        height: 1060px;
+    }
+
+    .general {
+        height: 1360px;
+    }
 
     .footer-container {
         max-width: 768px;
@@ -194,5 +213,396 @@
 
 
 @media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    .navigation {
+        justify-content: space-around;
+        width: 240px;
+
+    }
+
+    .navigation__link {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+
+    .button__nav {
+        margin-right: 10px;
+    }
+
+
+    .title {
+        padding-top: 0px;
+    }
+
+    .main-container {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    .border {
+        height: 35%;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .time {
+        display: flex;
+        margin-top: 15px;
+        width: 350px;
+    }
+
+    .time-box__item {
+        width: 70px;
+        height: 40px;
+        font-size: 30px;
+        padding-top: 17%;
+    }
+
+    .time-box__text {
+        font-size: 14px;
+        margin: 0px;
+        margin-left: 13px;
+    }
+
+    .border-img {
+        width: 40%;
+        left: 375px;
+        bottom: -5px;
+    }
+
+
+    .colums-container {
+        max-width: 670px;
+        margin: 0 auto;
+        padding-bottom: 150px;
+    }
+
+    .captain,
+    .coloner,
+    .general {
+        width: 210px;
+
+    }
+
+    .captain__logo,
+    .coloner__logo,
+    .general__logo {
+        position: absolute;
+        top: -40px;
+        left: 55px;
+
+    }
+
+    .captain__title,
+    .coloner__title,
+    .general__title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .captain__text,
+    .coloner__text,
+    .general__text {
+        font-size: 14px;
+    }
+
+
+    .copyright__p {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    .contacts__us {
+        font-size: 16px;
+    }
+
+    .contacts__link {
+        margin-right: 10px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .navigation {
+        justify-content: space-around;
+        width: 240px;
+
+    }
+
+    .navigation__link {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .button__nav {
+        width: 40%;
+        display: flex;
+    }
+
+    .btn__nav-one {
+        width: 170px;
+        height: 35px;
+    }
+
+    .btn__nav-two {
+        width: 150px;
+        height: 35px;
+    }
+
+    .title {
+        padding-top: 0px;
+    }
+
+    .main-container {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+
+    .title__title {
+        font-size: 30px;
+    }
+
+    .border {
+        padding: 5%;
+    }
+
+    .border-content {
+        padding-left: 0%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        width: 95%;
+    }
+
+    .border {
+        height: 35%;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .time {
+        display: flex;
+        margin-top: 15px;
+        width: 450px;
+    }
+
+    .time-box {
+        max-width: 12vw;
+        
+    }
+
+    .time-box__item {
+        width: 70px;
+        height: 40px;
+        font-size: 30px;
+        padding-top: 17%;
+        margin-right: 25px;
+    }
+
+    .time-box__text {
+        font-size: 14px;
+        margin: 0px;
+        margin-left: 13px;
+    }
+
+    .border-img {
+        display: none;
+    }
+
+
+    .colums-container {
+        max-width: 450px;
+        margin: 0 auto;
+        padding-bottom: 150px;
+    }
+
+    .colums {
+        flex-wrap: wrap;
+    }
+
+    .coloner {
+        margin-bottom: 50px;
+    }
+
+    .general {
+        margin: 0 auto;
+    }
+
+
+
+    .captain__title,
+    .coloner__title,
+    .general__title {
+        font-size: 22px;
+    }
+
+
+    .copyright__p {
+        display: none;
+    }
+
+    .footer__bottom {
+        justify-content: center;
+        
+    }
     
+
+    .contacts__us {
+        font-size: 14px;
+    }
+
+    .contacts__link {
+        margin-right: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .button__nav {
+        width: 40%;
+        display: flex;
+    }
+
+    .title {
+        padding-top: 0px;
+        width: 200px;
+        height: 80px;
+        margin: 0 auto  ;
+    }
+
+    .main-container {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 17%;
+    }
+
+    .title__logo {
+        display: none;
+    }
+
+    .title__title {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .closes {
+        flex-wrap: wrap;
+    }
+
+    .title-box {
+        text-align: center;
+    }
+
+    .title-box__text {
+        font-size: 18px;
+    }
+    .border {
+        padding: 5%;
+    }
+
+    .border-content {
+        padding-left: 5%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        width: 100%;
+    }
+
+    .border {
+        height: 35%;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .logo-big {
+        display: none;
+    }
+
+    .title-box__item {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .time {
+        display: flex;
+        margin-top: 15px;
+        width: 300px;
+    }
+
+    .time-box {
+        max-width: 7vw;
+        
+    }
+
+    .time-box__item {
+        width: 50px;
+        height: 30px;
+        font-size: 25px;
+        padding-top: 0%;
+        margin-right: 25px;
+    }
+
+    .time-box__text {
+        font-size: 12px;
+        margin: 0px;
+        margin-left: 9px;
+    }
+
+    .border-img {
+        display: none;
+    }
+
+
+    .colums-container {
+        max-width: 450px;
+        margin: 0 auto;
+        padding-bottom: 150px;
+    }
+
+    .colums {
+        flex-wrap: wrap;
+    }
+
+    .coloner {
+        margin-bottom: 50px;
+    }
+
+    .general, .coloner, .captain {
+        margin: 0 auto;
+        width: 85%;
+        margin-bottom: 18%;
+    }
+
+    .captain__title,
+    .coloner__title,
+    .general__title {
+        font-size: 22px;
+    }
+
+    .captain__logo, .coloner__logo, .general__logo {
+        position: absolute;
+        top: -40px;
+        left: 78px;
+    
+    }
+
+    .contacts__us {
+        font-size: 14px;
+        padding-right: 3%;
+    }
+
+    .footer-bottom__contacts-social {
+        align-items: center;
+    }
+
+
+
 }
