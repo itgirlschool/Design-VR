@@ -192,6 +192,8 @@ body {
     grid-template-rows: repeat(5, 219px);
 
     background: rgba(196, 196, 196, 0.18);
+
+    border-radius: 15px;
 }
 
 
@@ -223,19 +225,32 @@ p {
     margin-left: 15%;
     margin-top: 20%;
 
-    /* border: solid 2px rgb(128, 0, 111); */
+    border: solid 2px rgb(128, 0, 111);
 }
 
 /* ОТВЕРСТИЯ ОТ ВЫСТРЕЛОВ */
 
-.hole {
+h5 {
+    border: #FEFFFF solid 2px;
+
     display: flex;
-    
+
 }
 
-.hole img:hover {
-    background-color:rgba(0, 0, 0, 0);
+.bullet1 {
+    justify-content: flex-end;
+
+    margin-right: 5%;
+    margin-top: 5%;
 }
+
+.bullet2 {
+    border: #FEFFFF solid 2px;
+
+    position: relative;
+
+}
+
 
 /* ЗАКРУГЛЕНИЕ УГОЛКОВ - ПОСМОТРЕТЬ ПРАВО ВЕРХ */
 .table4 {
@@ -251,8 +266,8 @@ p {
     border-radius: 0px 0px 15px 0px;
 }
 
-.table20 {
-    border-radius: 0px 0px 15px 0px;
+.table1 {
+    border-radius: 15px 0px 0px 0px;
 }
 
 .footer {
