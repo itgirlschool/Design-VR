@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleble=0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&display=swap" rel="stylesheet">
@@ -14,11 +14,14 @@
     <link rel="shortcut icon" href="assets/img/Page_3/nav_logo.png" type="logo/png">
     <link rel="stylesheet" href="./assets/style/normalize.css">
     <link rel="stylesheet" href="./assets/style/style_4.css">
+    <link rel="stylesheet" href="./assets/style/adaptiv_4.css">
+
     <title>Registration</title>
 </head>
 
 <body>
-    <div class="wr">
+
+    <header class="header">
         <nav class="nav">
             <div class="nav-container">
                 <div class="logo">
@@ -42,20 +45,26 @@
                 </div>
             </div>
         </nav>
+    </header>
+    <div class="wr">
         <main>
             <div class="main-container">
                 <div class="title">
                     <img class="title__logo" src="/assets/img/Page_4/Group_141.png" alt="logo">
-                    <h1 class="title__title">Private Sale</h1>
+                    <div>
+                        <h1 class="title__title">Private Sale</h1>
+                    </div>
                 </div>
                 <div class="whi">
                     <img src="./assets/img/Page_4/Whitelist_forming.png" alt="whi"> </div>
             </div>
             <div class="be">
-                <img src="./assets/img/Page_4/100.png" alt="100"></div>
-
+                <p class="fa">To get into whitelist, enter your BEP-20 wallet address to which <span
+                        style="color: coral;"> $MEST </span> tokens will be deposited: </p>
+            </div>
             <div class="textarea">
-                <input class="color-text" placeholder="Your BEP-20 Wallet"></div>
+                <input class="color-text" placeholder="Your BEP-20 Wallet">
+            </div>
             <div class="button3"><a href="#" class="knopka">COMPLETE THE REGISTRATION</a>
             </div>
 
@@ -71,14 +80,14 @@
                 <div class="footer-bottom__contacts-social">
 
                     <p class="contacts__us">Contact Us</p>
-
-                    <a class="contacts__link" href="#"><img src="/assets/img/Page_4/Group_113.png" alt="twitter"></a>
-                    <a class="contacts__link" href="#"><img src="/assets/img/Page_4/Group_3.png" alt="telegram"></a>
-                    <a class="contacts__link" href="#"><img src="/assets/img/Page_4/Group_4.png" alt="M"></a>
-                    <a class="contacts__link contacts__link_margin" href="#"><img src="/assets/img/Page_4/Group_5.png"
-                            alt="play"></a>
+                    <div class="di">
+                        <a class="contacts__link" href="#"><img src="/assets/img/Page_4/Group_113.png"
+                                alt="twitter"></a>
+                        <a class="contacts__link" href="#"><img src="/assets/img/Page_4/Group_3.png" alt="telegram"></a>
+                        <a class="contacts__link" href="#"><img src="/assets/img/Page_4/Group_4.png" alt="M"></a>
+                        <a class="contacts__link contacts__link_margin" href="#"><img
+                                src="/assets/img/Page_4/Group_5.png" alt="play"></a></div>
                 </div>
-
             </div>
         </div>
     </footer>
