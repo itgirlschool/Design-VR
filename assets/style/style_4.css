@@ -3,8 +3,9 @@
     height: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -29,9 +30,9 @@ header {
     background-image: url(/assets/img/Page_4/Rectangle_5.png);
     position: fixed;
     width: 100%;
-    height: 13%;
+    height: 11%;
     background-size: cover;
-
+    background: rgba(196, 196, 196, 0.07);
 }
 
 .fa {
@@ -39,7 +40,6 @@ header {
 }
 
 .p {
-
     word-wrap: break-word;
 }
 
@@ -59,8 +59,12 @@ header {
 }
 
 .button {
+    display: flex;
+
+    align-items: center;
     max-width: 100%;
     height: auto;
+
 }
 
 .button_1 {
@@ -84,6 +88,7 @@ header {
 .button_2 {
     width: 130px;
     height: 44px;
+
     color: white;
     background-color: #935243;
     border: 1px solid #935243;
@@ -111,7 +116,7 @@ a:hover {
 .navigation {
     display: flex;
     justify-content: space-between;
-    width: 295px;
+    width: 22%;
     flex-wrap: wrap;
 }
 
@@ -123,8 +128,7 @@ a:hover {
 
 
 .social {
-    display: block;
-    width: 210px;
+    width: 16%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -197,9 +201,9 @@ a:hover {
 .whi {
     display: flex;
     justify-content: center;
-    padding-top: 0%;
-    left: 877px;
-    top: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 0% 4% 3% 4%;
 }
 
 
@@ -246,6 +250,8 @@ input {
 
 
 a.knopka {
+    max-width: 100%;
+    height: auto;
     color: rgba(119, 66, 0, 1);
     /* цвет текста */
     text-decoration: none;
