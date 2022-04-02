@@ -230,9 +230,12 @@ p {
 
 .hole {
     display: flex;
+    
 }
 
-
+.hole img:hover {
+    background-color:rgba(0, 0, 0, 0);
+}
 
 /* ЗАКРУГЛЕНИЕ УГОЛКОВ - ПОСМОТРЕТЬ ПРАВО ВЕРХ */
 .table4 {
