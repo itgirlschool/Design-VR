@@ -37,6 +37,7 @@ header {
 
 .fa {
     color: #FFFFFF;
+    font-family: 'Jost', sans-serif;
 }
 
 .p {
@@ -179,7 +180,7 @@ a:hover {
 
 .be {
     margin: 0px auto;
-    padding: 0px 16px;
+    padding: 18px 0px 0px 0px;
     display: flex;
     justify-content: center;
 }
