@@ -211,8 +211,6 @@ input {
     display: flex;
     padding: 1px 20px 10px 20px;
     margin: 20px auto;
-    width: 749px;
-    height: 78px;
     background: rgba(196, 196, 196, 0.04);
     border: 3px solid #ffff43;
     box-sizing: border-box;
@@ -241,10 +239,8 @@ input {
     font-size: 20px;
     color: rgba(255, 115, 0, 0.822);
     max-width: 100%;
-    height: auto;
-    width: 1000px;
-    height: 100px;
-
+    width: 853px;
+    height: 78px;
 
 }
 
@@ -252,7 +248,7 @@ input {
 a.knopka {
     max-width: 100%;
     height: auto;
-    color: rgba(119, 66, 0, 1);
+    color: #774200;
     /* цвет текста */
     text-decoration: none;
     /* убирать подчёркивание у ссылок */
@@ -280,7 +276,7 @@ a.knopka:active {
 .knopka {
     font-weight: 700;
     font-size: 18px;
-    line-height: 6vh;
+    line-height: 6.4vh;
     text-align: center;
     text-transform: uppercase;
 }
