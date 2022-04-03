@@ -675,7 +675,6 @@ body {
     max-width: 1210px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -844,7 +843,6 @@ ul {
 
 .chronology__item5 .chronology__list {
     top: 168px;
-    left: 14%;
     min-width: 250px;
 }
 
