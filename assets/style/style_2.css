@@ -209,8 +209,6 @@ div {
 }
 
 .table {
-    border: solid 2px rgb(164, 255, 61);
-
     /* width: 100%; */
 
     display: grid;
@@ -385,19 +383,35 @@ p {
 }
 
 @media (max-width: 920px) {
+    .table-container {
+        width: 100%;
+    }
+    
 
     .table {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(10, 1fr);
+
+        width: 80%;
+    }
+
+    .table1,
+    .table2,
+    .table6,
+    .table5,
+    .table9,
+    .table10,
+    .table14,
+    .table13,
+    .table17,
+    .table18
+    {
+        grid-column: 1/2;
     }
 
 
 
-
 }
-
-
-
 
 /* BORDERS FOOTER */
 /*
