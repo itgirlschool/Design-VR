@@ -384,11 +384,16 @@ p {
 
 }
 
-@media screen (max-width: 920px) {
+@media (max-width: 920px) {
+
     .table {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 219px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
     }
+
+
+
+
 }
 
 
