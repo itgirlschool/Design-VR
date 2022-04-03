@@ -219,6 +219,7 @@ body {
 
 .tailer__characters {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0px auto;
     font-weight: 600;
@@ -250,7 +251,7 @@ body {
 
 .videoblock iframe {
     width: 100% !important;
-    height: 560px !important;
+    height: 560px;
 }
 
 .about {
