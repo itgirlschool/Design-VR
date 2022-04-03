@@ -33,11 +33,9 @@
 }
 
 @media screen and (max-width: 1350px) {
-
     .navigation {
         justify-content: space-around;
         width: 240px;
-
     }
 
     .navigation__link {
@@ -50,9 +48,6 @@
         justify-content: space-around;
     }
 
-
-
-
     .button__nav {
         width: 40%;
         display: flex;
@@ -64,13 +59,11 @@
     }
 
     .button_2 {
-
         width: 121px;
         height: 44px;
     }
 
     .title {
-
         padding-top: 183px;
     }
 
@@ -92,13 +85,9 @@
         padding: 5%;
     }
 
-
-
     .footer__bottom {
         padding: 2% 0 2% 0;
-
     }
-
 
     .contacts__us {
         font-size: 14px;
@@ -106,13 +95,11 @@
 
     .contacts__link {
         margin-right: 10px;
-
     }
 }
 
 
 @media screen and (max-width: 1200px) {
-
     .nav-container {
         max-width: 1094px;
     }
@@ -150,17 +137,13 @@
         max-width: 992px;
         margin: 0 auto;
     }
-
 }
 
 @media screen and (max-width: 1026px) {
     .social {
-
         width: 14%;
         display: flex;
-
         flex-wrap: nowrap;
-
     }
 
     .button3 {
@@ -171,13 +154,10 @@
         font-size: 17px;
         width: 816px;
         height: 91px;
-
     }
 
     .footer {
-
         padding: 0px 9px 1px 9px;
-
     }
 }
 
@@ -189,8 +169,6 @@
     .whi {
         display: flex;
     }
-
-
 
     .title {
         padding-top: 150px;
@@ -220,7 +198,6 @@
         display: none;
     }
 
-
     .footer-container {
         max-width: 768px;
         margin: 0 auto;
@@ -236,7 +213,6 @@
     .navigation {
         justify-content: space-around;
         width: 240px;
-
     }
 
     .navigation__link {
@@ -272,12 +248,10 @@
         margin: 0 auto;
     }
 
-
     .be {
         margin: 3px auto;
         padding: 4px 105px
     }
-
 
     .copyright__p {
         margin-left: 15px;
@@ -290,16 +264,13 @@
 
     .contacts__link {
         margin-right: 10px;
-
     }
 }
 
 @media screen and (max-width: 680px) {
-
     .navigation {
         justify-content: space-around;
         width: 240px;
-
     }
 
     .navigation__link {
@@ -368,8 +339,6 @@
         padding: 6px 15px;
     }
 
-
-
     .footer__bottom {
         padding: 7% 0 2% 0;
     }
@@ -378,7 +347,6 @@
         margin-left: 5px;
         font-size: 14px;
     }
-
 
     .footer-bottom__contacts-social {
         display: flex;
@@ -390,12 +358,9 @@
         font-size: 14px;
     }
 
-
-
     .contacts__link {
         margin-right: 10px;
     }
-
 }
 
 @media screen and (max-width: 546px) {
@@ -445,7 +410,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
     .title {
         padding-top: 104px;
     }
@@ -463,7 +427,6 @@
     .title__title {
         font-size: 30px;
     }
-
 
     .knopka {
         font-size: 11px;
@@ -508,7 +471,6 @@
     .contacts__link {
         margin-right: 10px;
     }
-
 }
 
 
@@ -579,8 +541,6 @@
 }
 
 @media screen and (max-width: 320px) {
-
-
     .header {
         height: 69px;
         background-image: url(/assets/img/Page_4/Rectangle_5.png);
