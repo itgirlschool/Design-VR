@@ -208,11 +208,18 @@ body {
     text-align: center;
 }
 
+.trailer__container {
+    max-width: 1210px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 .tailer__characters {
     display: flex;
     justify-content: space-between;
-    width: 922px;
     margin: 0px auto;
     font-weight: 600;
     text-transform: uppercase;
@@ -235,7 +242,6 @@ body {
 .videoblock,
 .metaverse__vr-video {
     max-width: 1030px;
-    width: 100%;
     margin: 0 auto;
     border: 10px solid #615e5e;
     border-radius: 21px;
@@ -337,7 +343,6 @@ body {
 .nft-equipments__weapons-choose {
     display: flex;
     justify-content: center;
-    transition: 1s;
     padding-bottom: 5%;
 }
 
@@ -349,7 +354,6 @@ body {
 }
 
 .weapons-choose:hover {
-    transform: scale(1.5);
     border: 3px solid #6625D6;
 }
 
@@ -843,7 +847,6 @@ ul {
 
 .chronology__item5 .chronology__list {
     top: 168px;
-    min-width: 250px;
 }
 
 .roadmap__title {
@@ -856,6 +859,16 @@ ul {
     background: url(/assets/img/Page_1/Block_10/bg10.png), black;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 75px;
+    margin-top: 0px;
+    padding-bottom: 170px;
+    background-position: center;
+}
+
+.team__container {
+        max-width: 1210px;
+        margin: 0 auto;
+        width: 100%;
 }
 
 .team__p {
@@ -863,7 +876,51 @@ ul {
     color: white;
 }
 
-.team__table {
+.team__row {
+    margin-top: 55px;
+}
+
+.team__flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team__item * {
+	line-height: 0;
+}
+
+.team__item {
+    flex-basis: calc(100% / 3);
+}
+
+.item__itemleft img {
+    width: 100%;
+    height: auto;
+}
+
+.item__itemright img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item__itemleft {
+    flex-basis: 50%;
+}
+
+.item__itemright {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team__item:nth-child(4), .team__item:nth-child(5), .team__item:nth-child(6) {
+	flex-direction: row-reverse;
+}
+
+
+/* .team__table {
     margin: 3% 15% 3% 15%;
     display: grid;
     grid-template-columns: repeat(6, 195px);
@@ -875,10 +932,10 @@ ul {
 .table {
     align-self: center;
     justify-self: center;
-}
+} */
 
 .team__btn {
-    padding-bottom: 5%;
+    margin-top: 60px;
 }
 
 .team-btn__one {
@@ -909,14 +966,10 @@ ul {
 .partners__container {
     margin: 0 auto;
     max-width: 1170px;
-    padding-left: 20px;
-    padding-right: 20px;
     width: 100%;
 }
 
 .partners__blocks {
-    margin-left: -15px;
-    margin-right: -15px;
     margin-top: 70px;
     padding-bottom: 95px;
     display: flex;
