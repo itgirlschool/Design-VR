@@ -498,7 +498,6 @@
     .coloner,
     .general {
         width: 80%;
-        margin-bottom: 50px;
         margin: 0 auto;
         margin-bottom: 15%;
     }
@@ -517,7 +516,7 @@
     }
 
     .general {
-        height: 220vh;
+        height: 180vh;
     }
 
 
@@ -678,15 +677,15 @@
     }
 
     .captain {
-        height: 78vh;
+        height: 66vh;
     }
 
     .coloner {
-        height: 173vh;
+        height: 154vh;
     }
 
     .general {
-        height: 217vh;
+        height: 195vh;
     }
 
     .captain__logo,
