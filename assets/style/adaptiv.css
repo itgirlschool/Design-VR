@@ -1,5 +1,9 @@
 @media screen and (max-width: 1200px) {
 
+    .token__shots {
+        display: none;
+    }
+
     .nft-equipments__weapons-choose {
         flex-wrap: wrap;
     }
@@ -8,10 +12,103 @@
         flex-wrap: wrap-reverse;
     }
 
+    .chronology__line::before {
+        width: 34%;
+    }
+
+    .team__container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .chronology__inside {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .chronology__line {
+        position: absolute;
+        left: 10px;
+        width: 100%;
+    }
+
+    .chronology__line::before {
+        content: none;
+    }
+
+    .chronology__line::after {
+        content: none;
+    }
+
+    .chronology__lineinside {
+        width: 10px;
+        height: 100%;
+    }
+
+    .containers__chronology {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .chronology__row {
+        flex-wrap: wrap;
+    }
+
+    .chronology__item {
+        flex-basis: 100%;
+        position: relative;
+        padding-left: 80px;
+        /* margin-bottom: 30px; */
+    }
+
+    .chronology__dot {
+        position: absolute;
+        margin-left: 0 !important;
+        left: 10px;
+    }
+
+    .chronology__item1 .chronology__dot::after, .chronology__item2 .chronology__dot::after {
+        background: #e4c940;
+    }
+
+    .chronology__dot::after {
+        height: 480%;
+        top: 32px !important;
+    }
+
+    .chronology__title {
+        position: initial;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .chronology__item1 .chronology__list {
+        top: 168px;
+        left: 0%;
+        min-width: 290px;
+    }
+
+    .chronology__list {
+        position: initial;
+    }
+
+    .chronology__list li {
+        margin-bottom: 10px;
+    }
+    
+    .team__title {
+        padding-top: 100px;
+    }
+
 
 }
 
-@media screen and (min-width: 760px) and (max-width: 1199px) {
+@media screen and (min-width: 760px) and (max-width: 979px) {
 
     .team__item {
         flex-basis: calc(100% / 2);
