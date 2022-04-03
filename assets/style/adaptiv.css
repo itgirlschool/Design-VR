@@ -1,0 +1,43 @@
+@media screen and (max-width: 1200px) {
+
+    .nft-equipments__weapons-choose {
+        flex-wrap: wrap;
+    }
+
+    .concept__flex {
+        flex-wrap: wrap-reverse;
+    }
+
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 1199px) {
+
+    .team__item {
+        flex-basis: calc(100% / 2);
+    }
+
+    .team__item:nth-child(3), .team__item:nth-child(4) {
+        flex-direction: row-reverse;
+    }
+
+    .team__item:nth-child(5), .team__item:nth-child(6) {
+        flex-direction: row;
+    }
+    
+}
+
+@media screen and (min-width: 460px) and (max-width: 759px) {
+
+    .team__item {
+        flex-basis: calc(100% / 1);
+    }
+
+    .team__item:nth-child(2), .team__item:nth-child(4), .team__item:nth-child(6) {
+        flex-direction: row-reverse;
+    }
+
+    .team__item:nth-child(5) {
+        flex-direction: row;
+    }
+}
