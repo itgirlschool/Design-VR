@@ -372,7 +372,7 @@ body {
 
 .vr-video iframe {
     width: 100% !important;
-    height: 560px !important;
+    height: 560px;
 }
 
 .main__concept-token {
