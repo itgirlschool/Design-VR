@@ -544,83 +544,6 @@
 
 
 
-@media screen and (max-width: 412px) {
-    .nav {
-        height: 10vh;
-        
-    }
-
-    .captain__logo,
-    .coloner__logo,
-    .general__logo {
-        left: 110px;
-
-    }
-
-    .general {
-        height: 172vh;
-    }
-
-    .coloner {
-        height: 139vh;
-
-    }
-
-    .captain {
-        height: 57vh;
-    }
-
-    .captain__text,
-    .coloner__text,
-    .general__text {
-        font-size: 22px;
-    }
-
-    .box-text {
-        font-size: 18px;
-        
-    }
-}
-
-
-
-
-@media (min-width: 390px) and (max-width: 394px) {
-    .nav {
-        height: 8vh;
-    }
-
-    .captain__logo,
-    .coloner__logo,
-    .general__logo {
-
-        left: 103px;
-    }
-
-    .general {
-        height: 155vh;
-    }
-
-}
-
-@media screen and (max-width: 360px) {
-    .nav {
-        height: 10vh;
-    }
-
-    .captain__logo,
-    .coloner__logo,
-    .general__logo {
-        left: 93px;
-
-    }
-
-    .general {
-        height: 175vh;
-    }
-}
-
-
 
 @media screen and (max-width: 320px) {
 
@@ -741,18 +664,29 @@
     .coloner,
     .captain {
         margin: 0 auto;
-        width: 85%;
         margin-bottom: 18%;
     }
 
     .captain__title,
     .coloner__title,
     .general__title {
-        font-size: 22px;
+        font-size: 18px;
+    }
+
+    .box-text {
+        font-size: 14px;
+    }
+
+    .captain {
+        height: 78vh;
+    }
+
+    .coloner {
+        height: 173vh;
     }
 
     .general {
-        height: 119vh;
+        height: 217vh;
     }
 
     .captain__logo,
