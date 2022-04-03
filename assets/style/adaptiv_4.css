@@ -1,0 +1,670 @@
+@media screen and (min-width: 2492px) {
+    .knopka {
+        line-height: 4vh;
+    }
+
+    .be {
+        font-size: 21px;
+        width: 818px;
+        height: 92px;
+    }
+
+    a.knopka {
+        width: 396px;
+        height: 70px;
+    }
+
+    .color-text {
+        font-size: 23px;
+        color: rgba(255, 115, 0, 0.822);
+        max-width: 100%;
+        width: 984px;
+        height: 114px;
+    }
+
+    .title {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        place-content: stretch center;
+        align-items: center;
+        padding-top: 19%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    .navigation {
+        justify-content: space-around;
+        width: 240px;
+
+    }
+
+    .navigation__link {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+
+    .button__nav {
+        width: 40%;
+        display: flex;
+    }
+
+    .button_1 {
+        width: 133px;
+        height: 45px;
+    }
+
+    .button_2 {
+
+        width: 121px;
+        height: 44px;
+    }
+
+    .title {
+
+        padding-top: 183px;
+    }
+
+    .be {
+        margin: 3px auto;
+        padding: 5px 55px;
+    }
+
+    .main-container {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+
+    .title__title {
+        font-size: 30px;
+    }
+
+    .border {
+        padding: 5%;
+    }
+
+
+
+    .footer__bottom {
+        padding: 2% 0 2% 0;
+
+    }
+
+
+    .contacts__us {
+        font-size: 14px;
+    }
+
+    .contacts__link {
+        margin-right: 10px;
+
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .nav-container {
+        max-width: 1094px;
+    }
+
+    .nav {
+        height: 12vh;
+    }
+
+    .title {
+        padding-top: 140px;
+    }
+
+    .main-container {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    .social {
+        width: 18%;
+        display: flex;
+    }
+
+    a.knopka {
+        width: 340px;
+        height: 56px;
+    }
+
+    .color-text {
+        font-size: 17px;
+        width: 877px;
+        height: 91px;
+    }
+
+    .footer-container {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 1026px) {
+    .social {
+
+        width: 14%;
+        display: flex;
+
+        flex-wrap: nowrap;
+
+    }
+
+    .button3 {
+        padding: 21px;
+    }
+
+    .color-text {
+        font-size: 17px;
+        width: 816px;
+        height: 91px;
+
+    }
+
+    .footer {
+
+        padding: 0px 9px 1px 9px;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nav-container {
+        max-width: 891px;
+    }
+
+    .whi {
+        display: flex;
+    }
+
+
+
+    .title {
+        padding-top: 150px;
+    }
+
+    .knopka {
+        font-size: 16px;
+        line-height: 6vh;
+    }
+
+    a.knopka {
+        width: 316px;
+        height: 55px;
+    }
+
+    .color-text {
+        max-width: 69%;
+        height: 81px;
+    }
+
+    .main-container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .social {
+        display: none;
+    }
+
+
+    .footer-container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    .navigation {
+        justify-content: space-around;
+        width: 240px;
+
+    }
+
+    .navigation__link {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+
+    .button {
+        margin-right: 3px;
+    }
+
+    a.knopka {
+        width: 293px;
+        height: 49px;
+    }
+
+    .knopka {
+        font-size: 14px;
+        line-height: 5vh;
+    }
+
+    .color-text {
+        max-width: 65%;
+        height: 71px;
+    }
+
+    .title {
+        padding-top: 139px;
+    }
+
+    .main-container {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+
+    .be {
+        margin: 3px auto;
+        padding: 4px 105px
+    }
+
+
+    .copyright__p {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    .contacts__us {
+        font-size: 16px;
+    }
+
+    .contacts__link {
+        margin-right: 10px;
+
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .navigation {
+        justify-content: space-around;
+        width: 240px;
+
+    }
+
+    .navigation__link {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+
+    input {
+        padding: 0px 24px 3px 12px;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .button__nav {
+        width: 40%;
+        display: flex;
+    }
+
+    .button_2 {
+        width: 73px;
+        height: 40px;
+    }
+
+    .color-text {
+        max-width: 63%;
+        height: 62px;
+    }
+
+    .button_1 {
+        width: 79px;
+        height: 40px;
+    }
+
+    .title {
+        padding-top: 173px;
+    }
+
+    .be {
+        margin: 3px auto;
+        padding: 5px 85px;
+    }
+
+    a.knopka {
+        width: 275px;
+        height: 40px;
+    }
+
+    .main-container {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+
+    .title__title {
+        font-size: 30px;
+    }
+
+    .border {
+        padding: 5%;
+    }
+
+    .copyright__p {
+        margin-left: 5px;
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+
+
+
+    .footer__bottom {
+        padding: 7% 0 2% 0;
+    }
+
+    .di {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+
+    .footer-bottom__contacts-social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts__us {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+
+
+    .contacts__link {
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 546px) {
+    .nav {
+        height: 9vh;
+    }
+
+    .title {
+        padding-top: 146px;
+    }
+
+    .header {
+        height: 85px;
+    }
+
+    a.knopka {
+        width: 182px;
+        height: 44px;
+    }
+
+    .knopka {
+        font-size: 10px;
+        line-height: 6vh;
+    }
+
+    .footer-bottom__contacts-social {
+        display: flex;
+        flex-direction: column;
+        padding: 0% 0 2% 0;
+    }
+
+    .button_2 {
+        width: 121px;
+        height: 39px;
+    }
+
+    .button_1 {
+        width: 133px;
+        height: 39px;
+    }
+
+    .copyright__p {
+        margin-left: 5px;
+        font-size: 14px;
+        padding: 1% 24% 2% 20%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .title {
+        padding-top: 104px;
+    }
+
+    .be {
+        margin: 3px auto;
+        padding: 5px 55px;
+    }
+
+    .main-container {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+
+    .title__title {
+        font-size: 30px;
+    }
+
+
+    .knopka {
+        font-size: 11px;
+    }
+
+    a.knopka {
+        width: 238px;
+        height: 36px;
+    }
+
+    .color-text {
+        max-width: 68%;
+        height: 65px;
+    }
+
+    input {
+        margin: 11px auto;
+    }
+
+    .footer__bottom {
+        padding: 8% 0 1% 0;
+    }
+
+    .footer-bottom__contacts-social {
+        padding: 0% 0 0% 15%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button3 {
+        padding: 4px;
+    }
+
+    .copyright__p {
+        font-size: 11px;
+    }
+
+    .contacts__us {
+        font-size: 11px;
+    }
+
+    .contacts__link {
+        margin-right: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 370px) {
+    header {
+        background-image: url(/assets/img/Page_4/Rectangle_5.png);
+        position: fixed;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin: -0.33em 12px;
+    }
+
+    .button__nav {
+        width: 40%;
+        display: flex;
+    }
+
+    .title {
+        display: flex;
+        height: 262px;
+        padding-top: 0px;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .footer__bottom {
+        padding: 27% 0 1% 0;
+    }
+
+    .whi {
+        justify-content: center;
+        padding: 8% 4% 0% 4%;
+    }
+
+    .main-container {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 5%;
+    }
+
+    .title__logo {
+        display: flex;
+        width: 110px;
+        height: 115px;
+    }
+
+    .knopka {
+        font-size: 10px;
+        line-height: 4vh;
+    }
+
+    .contacts__us {
+        font-size: 14px;
+    }
+
+    .footer__bottom {
+        padding: 10% 0 1% 0;
+    }
+
+    .footer-bottom__contacts-social {
+        padding: 0% 0 0% 9%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .header {
+        height: 69px;
+        background-image: url(/assets/img/Page_4/Rectangle_5.png);
+        position: fixed;
+    }
+
+    .button__nav {
+        width: 40%;
+        display: flex;
+    }
+
+    .title {
+        display: flex;
+        height: 289px;
+    }
+
+    .main-container {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 5%;
+    }
+
+    .title__logo {
+        display: flex;
+        width: 110px;
+        height: 115px;
+    }
+
+    .nav-container {
+        max-width: 891px;
+        padding: 3% 0px 0% 0%;
+    }
+
+    .title__title {
+        font-size: 30px;
+    }
+
+    .wr {
+        padding: 0px 15px;
+    }
+
+    a.knopka {
+        width: 178px;
+        height: 36px;
+    }
+
+    .knopka {
+        font-size: 8px;
+        line-height: 6vh;
+    }
+
+
+    .button_2 {
+        width: 101px;
+        height: 30px;
+    }
+
+    .button_1 {
+        width: 113px;
+        height: 28px;
+    }
+
+    .contacts__us {
+        font-size: 11px;
+        margin-left: 32px;
+    }
+
+    .copyright__p {
+        font-size: 11px;
+        padding: 4% 34px 0% 20%;
+    }
+
+    .footer__bottom {
+        padding: 31% 0 1% 0;
+    }
+
+    .di {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-bottom__contacts-social {
+        align-items: center;
+        padding: 0% 0 0% 8%;
+    }
+}

@@ -66,7 +66,7 @@
     .general__logo {
         position: absolute;
         top: -40px;
-        left: 100px;
+        left: 33%;
 
     }
 
@@ -86,6 +86,7 @@
 }
 
 
+
 @media screen and (max-width: 992px) {
     .nav-container {
         max-width: 768px;
@@ -98,14 +99,14 @@
     .btn__nav-one {
         margin-right: 20px;
         width: 10vw;
-        height: 11vh;
+        height: 9vh;
         font-size: 12px;
     }
 
 
     .btn__nav-two {
         width: 10vw;
-        height: 11vh;
+        height: 9vh;
         font-size: 12px;
     }
 
@@ -210,6 +211,8 @@
         margin: 0 auto;
     }
 }
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -325,6 +328,70 @@
     }
 }
 
+@media screen and (max-width: 673px) {
+    .btn__nav-one {
+        margin-right: 10px;
+    }
+
+
+    .border {
+        justify-content: center;
+    }
+
+
+    .border-img {
+        display: none;
+    }
+
+
+    .colums-container {
+        max-width: 60%;
+    }
+
+    .colums {
+        flex-wrap: wrap;
+    }
+
+    .captain,
+    .coloner,
+    .general {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 15%;
+
+    }
+
+    .captain__logo,
+    .coloner__logo,
+    .general__logo {
+        position: absolute;
+        top: -40px;
+        left: 85px;
+
+    }
+
+    .general {
+        height: 228vh;
+    }
+
+    .copyright__p {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    .contacts__us {
+        font-size: 16px;
+    }
+
+    .contacts__link {
+        margin-right: 10px;
+
+    }
+}
+
+
+
+
 @media screen and (max-width: 480px) {
 
     .navigation {
@@ -395,7 +462,7 @@
 
     .time-box {
         max-width: 12vw;
-        
+
     }
 
     .time-box__item {
@@ -427,20 +494,30 @@
         flex-wrap: wrap;
     }
 
-    .coloner {
-        margin-bottom: 50px;
-    }
-
+    .captain,
+    .coloner,
     .general {
+        width: 80%;
+        margin-bottom: 50px;
         margin: 0 auto;
+        margin-bottom: 15%;
     }
 
+    .captain__logo,
+    .coloner__logo,
+    .general__logo {
+        left: 127px;
 
+    }
 
     .captain__title,
     .coloner__title,
     .general__title {
-        font-size: 22px;
+        font-size: 27px;
+    }
+
+    .general {
+        height: 220vh;
     }
 
 
@@ -450,9 +527,9 @@
 
     .footer__bottom {
         justify-content: center;
-        
+
     }
-    
+
 
     .contacts__us {
         font-size: 14px;
@@ -465,7 +542,14 @@
 
 }
 
+
+
+
 @media screen and (max-width: 320px) {
+
+    .nav {
+        height: 8vh;
+    }
 
     .button__nav {
         width: 40%;
@@ -476,7 +560,7 @@
         padding-top: 0px;
         width: 200px;
         height: 80px;
-        margin: 0 auto  ;
+        margin: 0 auto;
     }
 
     .main-container {
@@ -505,6 +589,7 @@
     .title-box__text {
         font-size: 18px;
     }
+
     .border {
         padding: 5%;
     }
@@ -539,7 +624,7 @@
 
     .time-box {
         max-width: 7vw;
-        
+
     }
 
     .time-box__item {
@@ -575,23 +660,42 @@
         margin-bottom: 50px;
     }
 
-    .general, .coloner, .captain {
+    .general,
+    .coloner,
+    .captain {
         margin: 0 auto;
-        width: 85%;
         margin-bottom: 18%;
     }
 
     .captain__title,
     .coloner__title,
     .general__title {
-        font-size: 22px;
+        font-size: 18px;
     }
 
-    .captain__logo, .coloner__logo, .general__logo {
+    .box-text {
+        font-size: 14px;
+    }
+
+    .captain {
+        height: 78vh;
+    }
+
+    .coloner {
+        height: 173vh;
+    }
+
+    .general {
+        height: 217vh;
+    }
+
+    .captain__logo,
+    .coloner__logo,
+    .general__logo {
         position: absolute;
         top: -40px;
         left: 78px;
-    
+
     }
 
     .contacts__us {

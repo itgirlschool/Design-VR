@@ -1,10 +1,11 @@
 .nav-container {
-    max-width: 1170px;
+    max-width: 69%;
     height: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -21,26 +22,50 @@ body {
     background-size: cover;
 }
 
-
 .content {
     flex-grow: 1;
 }
 
-
-.nav {
-    width: 100%;
-    height: 119px;
+header {
     background-image: url(/assets/img/Page_4/Rectangle_5.png);
     position: fixed;
-    background-size: cover;
+    width: 100%;
+    height: 11%;
+
+    background: rgba(196, 196, 196, 0.07);
+}
+
+.fa {
+    color: #FFFFFF;
+    font-family: 'Jost', sans-serif;
+}
+
+.p {
+    word-wrap: break-word;
+}
+
+.nav {
+    max-width: 100%;
+    height: 90%;
+    padding: 0px 15px;
+
 }
 
 
 .logo__img {
-    width: 80px;
-    height: 77px;
+    max-width: 100%;
+    height: auto;
+
 }
 
+.button {
+    display: flex;
+
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+
+}
 
 .button_1 {
     margin-right: 20px;
@@ -63,6 +88,7 @@ body {
 .button_2 {
     width: 130px;
     height: 44px;
+
     color: white;
     background-color: #935243;
     border: 1px solid #935243;
@@ -90,7 +116,8 @@ a:hover {
 .navigation {
     display: flex;
     justify-content: space-between;
-    width: 295px;
+    width: 22%;
+    flex-wrap: wrap;
 }
 
 
@@ -101,14 +128,16 @@ a:hover {
 
 
 .social {
-    width: 210px;
+    width: 16%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 
 .wr {
+    max-width: 100%;
     height: 100vh;
 }
 
@@ -120,7 +149,12 @@ a:hover {
 
 
 .title {
+    max-width: 100%;
     display: flex;
+    padding-top: 9%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
     justify-content: center;
     padding-top: 9%;
 }
@@ -145,18 +179,29 @@ a:hover {
 
 
 .be {
-    margin: 3%;
+    margin: 0px auto;
+    padding: 18px 0px 0px 0px;
     display: flex;
     justify-content: center;
 }
+
+.textrea {
+    max-width: 100%;
+    height: auto;
+    width: 110px;
+    height: 115px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 .whi {
     display: flex;
     justify-content: center;
-    padding-top: 0%;
-    left: 877px;
-    top: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 0% 4% 3% 4%;
 }
 
 
@@ -164,8 +209,6 @@ input {
     display: flex;
     padding: 1px 20px 10px 20px;
     margin: 20px auto;
-    width: 749px;
-    height: 78px;
     background: rgba(196, 196, 196, 0.04);
     border: 3px solid #ffff43;
     box-sizing: border-box;
@@ -193,11 +236,17 @@ input {
 .color-text {
     font-size: 20px;
     color: rgba(255, 115, 0, 0.822);
+    max-width: 100%;
+    width: 853px;
+    height: 78px;
+
 }
 
 
 a.knopka {
-    color: rgba(119, 66, 0, 1);
+    max-width: 100%;
+    height: auto;
+    color: #774200;
     /* цвет текста */
     text-decoration: none;
     /* убирать подчёркивание у ссылок */
@@ -223,18 +272,18 @@ a.knopka:active {
 
 /* при нажатии */
 .knopka {
-    width: 275px;
-    height: 20px;
-    left: 822px;
-    top: 649px;
-    justify-content: center;
-    font-family: 'Jost*';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 6vh;
+    line-height: 6.4vh;
     text-align: center;
     text-transform: uppercase;
+}
+
+#knopka {
+    max-width: 100%;
+    height: auto;
+    width: 110px;
+    height: 115px;
 }
 
 
@@ -245,6 +294,8 @@ a.knopka:active {
 
 
 .footer {
+    max-width: 100%;
+    height: 119px;
     text-align: center;
     padding: 5px;
 }
@@ -264,6 +315,10 @@ a.knopka:active {
     margin: 0 auto;
 }
 
+.di {
+    display: flex;
+    justify-content: space-between;
+}
 
 .footer__bottom {
     padding: 2% 0 2% 0;
@@ -284,6 +339,9 @@ a.knopka:active {
 
 
 .contacts__link {
+    display: block;
+    max-width: 100%;
+    height: auto;
     margin-right: 25px;
 }
 

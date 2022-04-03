@@ -8,7 +8,7 @@
 }
 
 .nav {
-    height: 17vh;
+    height: 23vh;
     background-image: url(/assets/img/Page_3/bg.png);
 
 }
@@ -51,6 +51,10 @@
 
 .social__icon {
     padding-right: 5px;
+}
+
+.button__nav {
+    display: flex;
 }
 
 .btn__nav-one {
@@ -248,7 +252,7 @@ main {
 .captain__logo, .coloner__logo, .general__logo {
     position: absolute;
     top: -40px;
-    left: 135px;
+    left: 35%;
 
 }
 
