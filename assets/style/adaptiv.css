@@ -23,6 +23,33 @@
     }
 }
 
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .navigation {
+        padding-left: 15px;
+    }
+
+    .button__nav {
+        padding-right: 15px;
+    }
+
+    .title-container {
+        padding-left: 15px;
+    }
+
+    .title-container__title img {
+	    width: 90%;
+    } 
+
+    .tailer__characters, .trailer__videoblock, .about-container, .team__p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .metaverse__vr-video {
+        max-width: 90%;
+    }
+}
+
 @media screen and (max-width: 980px) {
 
     .chronology__inside {
@@ -618,16 +645,16 @@
     }
 
     .team__item {
-        flex-basis: calc(100% / 1);
+        flex-basis: calc(100% / 2);
     }
 
-    .team__item:nth-child(2),
-    .team__item:nth-child(4),
-    .team__item:nth-child(6) {
+    .team__item:nth-child(3),
+    .team__item:nth-child(4) {
         flex-direction: row-reverse;
     }
 
-    .team__item:nth-child(5) {
+    .team__item:nth-child(5),
+    .team__item:nth-child(6) {
         flex-direction: row;
     }
 
