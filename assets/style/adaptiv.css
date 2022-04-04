@@ -29,54 +29,10 @@
 
 }
 
-@media screen and (min-width: 460px) and (max-width: 759px) {
-
-    .about__what-p {
-        width: 100%;
-        text-align: center;
-    }
-
-    .about-container img {
-        width: 100%;
-    }
-
-    .flex__right-block, .right-block__right-title {
-        width: 100%;
-    }
-
-    .team__item {
-        flex-basis: calc(100% / 1);
-    }
-
-    .team__item:nth-child(2),
-    .team__item:nth-child(4),
-    .team__item:nth-child(6) {
-        flex-direction: row-reverse;
-    }
-
-    .team__item:nth-child(5) {
-        flex-direction: row;
-    }
-}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* САША */
 
 @media screen and (max-width: 320px) {
 
@@ -201,3 +157,150 @@
 
 
 }
+
+
+
+
+/* ЗЛАТА */
+
+@media screen and (min-width: 460px) and (max-width: 759px) {
+
+    .navigation {
+        margin-left: 7%;
+    }
+
+    .navigation a {
+        margin: 0 5%;
+    }
+
+    .button__nav {
+        width: 30%;
+        display: flex;
+        margin-right: 17%;
+    }
+
+    .button__nav button {
+        margin: 0 5%;
+    }
+
+    .btn__nav-one {
+        width: 100px;
+        height: 40px;
+        margin-right: 4%;
+        padding-right: 10%;
+    }
+
+    .btn__nav-two {
+        width: 100px;
+        height: 40px;
+        margin-right: 10%;
+    }
+
+    .social a {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+
+    .button__nav {
+        width: 30%;
+        display: flex;
+    }
+
+    .btn__nav-one {
+        width: 100px;
+        height: 40px;
+        margin-right: 4%;
+    }
+
+    .btn__nav-two {
+        width: 100px;
+        height: 40px;
+    }
+
+    .title-container__title {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-top: 25%;
+    }
+
+    .title-container__text {
+        font-size: 27px;
+        /* width: 192px; */
+        /* margin: 0 auto; */
+    }
+
+    .button__title {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 15% 5% 0;
+        padding-bottom: 5%;
+    }
+
+    .tailer__characters {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        
+    }
+
+    .tailer__characters p {
+        padding: 5%;
+    }
+
+    .tailer__characters img {
+        width: 60%;
+    }
+
+    .trailer__videoblock {
+        width: 100%;
+        height: 100%;
+    }
+
+    .videoblock {
+        max-width: 88%;
+    }
+
+    .videoblock iframe {
+        height: 350px;
+    }
+
+
+
+
+
+    /* НЕ МОЙ КОД */
+
+    .about__what-p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-container img {
+        width: 100%;
+    }
+
+    .flex__right-block, .right-block__right-title {
+        width: 100%;
+    }
+
+    .team__item {
+        flex-basis: calc(100% / 1);
+    }
+
+    .team__item:nth-child(2),
+    .team__item:nth-child(4),
+    .team__item:nth-child(6) {
+        flex-direction: row-reverse;
+    }
+
+    .team__item:nth-child(5) {
+        flex-direction: row;
+    }
+
+
+}
+
+

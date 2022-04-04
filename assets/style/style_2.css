@@ -409,6 +409,19 @@ p {
         grid-column: 1/2;
     }
 
+    .table3,
+    .table4,
+    .table8,
+    .table7,
+    .table11,
+    .table12,
+    .table16,
+    .table15,
+    .table19,
+    .table20
+    {
+        grid-column: 2/3;
+    }
 
 
 }
