@@ -1,5 +1,9 @@
 @media screen and (max-width: 1200px) {
 
+    .token__shots {
+        display: none;
+    }
+
     .nft-equipments__weapons-choose {
         flex-wrap: wrap;
     }
@@ -8,10 +12,103 @@
         flex-wrap: wrap-reverse;
     }
 
+    .chronology__line::before {
+        width: 34%;
+    }
+
+    .team__container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .chronology__inside {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .chronology__line {
+        position: absolute;
+        left: 10px;
+        width: 100%;
+    }
+
+    .chronology__line::before {
+        content: none;
+    }
+
+    .chronology__line::after {
+        content: none;
+    }
+
+    .chronology__lineinside {
+        width: 10px;
+        height: 100%;
+    }
+
+    .containers__chronology {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .chronology__row {
+        flex-wrap: wrap;
+    }
+
+    .chronology__item {
+        flex-basis: 100%;
+        position: relative;
+        padding-left: 80px;
+        /* margin-bottom: 30px; */
+    }
+
+    .chronology__dot {
+        position: absolute;
+        margin-left: 0 !important;
+        left: 10px;
+    }
+
+    .chronology__item1 .chronology__dot::after, .chronology__item2 .chronology__dot::after {
+        background: #e4c940;
+    }
+
+    .chronology__dot::after {
+        height: 480%;
+        top: 32px !important;
+    }
+
+    .chronology__title {
+        position: initial;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .chronology__item1 .chronology__list {
+        top: 168px;
+        left: 0%;
+        min-width: 290px;
+    }
+
+    .chronology__list {
+        position: initial;
+    }
+
+    .chronology__list li {
+        margin-bottom: 10px;
+    }
+    
+    .team__title {
+        padding-top: 100px;
+    }
+
 
 }
 
-@media screen and (min-width: 760px) and (max-width: 1199px) {
+@media screen and (min-width: 760px) and (max-width: 979px) {
 
     .team__item {
         flex-basis: calc(100% / 2);
@@ -29,12 +126,9 @@
 
 }
 
-
-
-
 /* САША */
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 459px) {
 
 
     .link-link,
@@ -137,7 +231,7 @@
 
     .about__what-p {
         font-size: 16px;
-        width: 90%;
+        width: 100%;
         margin-right: 0px;
         padding-bottom: 15%;
     }
@@ -148,10 +242,85 @@
 
     .main__nft-box {
         padding-top: 15%;
-        
+
     }
 
     .nft__title {
+        font-size: 28px;
+    }
+
+    .boxes-choose {
+        width: 310px;
+        height: 329px;
+    }
+
+    .nft-box__boxes-choose {
+        padding-bottom: 20%;
+    }
+
+
+    .nft-equipments__weapons-choose {
+        padding-bottom: 17%;
+    }
+
+    .metaverse__p {
+        font-size: 16px;
+        padding-bottom: 8%;
+    }
+
+    .videoblock,
+    .metaverse__vr-video {
+        max-width: 88%;
+        height: 155px;
+        border: 3px solid #615e5e;
+
+    }
+
+    #video2 {
+        max-width: 97%;
+        height: 150px;
+        border-radius: 10px;
+
+    }
+
+    .token-flex {
+        justify-content: center;
+    }
+
+    .content__greyblock {
+        width: 240px;
+        height: 106px;
+        padding: 5%;
+    }
+
+    .greyblock__blockright {
+        padding-left: 15px;
+    }
+
+    .stars-list li {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+
+
+
+    .token__title {
+        font-size: 28px;
+        margin-bottom: 0px;
+        margin-bottom: 7%;
+    }
+
+    .main__team {
+        padding-bottom: 20%;
+    }
+
+    .team-btn__one {
+        width: 278px;
+        height: 65px;
+    }
+
+    .concept__title {
         font-size: 30px;
     }
 

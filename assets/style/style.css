@@ -372,7 +372,7 @@ body {
 
 .vr-video iframe {
     width: 100% !important;
-    height: 560px !important;
+    height: 560px;
 }
 
 .main__concept-token {
@@ -917,21 +917,6 @@ ul {
 .team__item:nth-child(4), .team__item:nth-child(5), .team__item:nth-child(6) {
 	flex-direction: row-reverse;
 }
-
-
-/* .team__table {
-    margin: 3% 15% 3% 15%;
-    display: grid;
-    grid-template-columns: repeat(6, 195px);
-    grid-template-rows: repeat(2, 195px);
-    justify-content: center;
-    align-items: center;
-}
-
-.table {
-    align-self: center;
-    justify-self: center;
-} */
 
 .team__btn {
     margin-top: 60px;
