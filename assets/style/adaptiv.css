@@ -347,6 +347,8 @@
     .metaverse__p {
         font-size: 16px;
         padding-bottom: 8%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .videoblock,
@@ -438,6 +440,11 @@
 
     .main__team {
         padding-bottom: 20%;
+    }
+
+    .team__p {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .team-btn__one {
