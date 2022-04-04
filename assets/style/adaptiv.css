@@ -1,5 +1,9 @@
 @media screen and (max-width: 1200px) {
 
+    .token__shots {
+        display: none;
+    }
+
     .nft-equipments__weapons-choose {
         flex-wrap: wrap;
     }
@@ -8,10 +12,103 @@
         flex-wrap: wrap-reverse;
     }
 
+    .chronology__line::before {
+        width: 34%;
+    }
+
+    .team__container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .chronology__inside {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .chronology__line {
+        position: absolute;
+        left: 10px;
+        width: 100%;
+    }
+
+    .chronology__line::before {
+        content: none;
+    }
+
+    .chronology__line::after {
+        content: none;
+    }
+
+    .chronology__lineinside {
+        width: 10px;
+        height: 100%;
+    }
+
+    .containers__chronology {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .chronology__row {
+        flex-wrap: wrap;
+    }
+
+    .chronology__item {
+        flex-basis: 100%;
+        position: relative;
+        padding-left: 80px;
+        /* margin-bottom: 30px; */
+    }
+
+    .chronology__dot {
+        position: absolute;
+        margin-left: 0 !important;
+        left: 10px;
+    }
+
+    .chronology__item1 .chronology__dot::after, .chronology__item2 .chronology__dot::after {
+        background: #e4c940;
+    }
+
+    .chronology__dot::after {
+        height: 480%;
+        top: 32px !important;
+    }
+
+    .chronology__title {
+        position: initial;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .chronology__item1 .chronology__list {
+        top: 168px;
+        left: 0%;
+        min-width: 290px;
+    }
+
+    .chronology__list {
+        position: initial;
+    }
+
+    .chronology__list li {
+        margin-bottom: 10px;
+    }
+    
+    .team__title {
+        padding-top: 100px;
+    }
+
 
 }
 
-@media screen and (min-width: 760px) and (max-width: 1199px) {
+@media screen and (min-width: 760px) and (max-width: 979px) {
 
     .team__item {
         flex-basis: calc(100% / 2);
@@ -29,55 +126,7 @@
 
 }
 
-@media screen and (min-width: 460px) and (max-width: 759px) {
-
-    .about__what-p {
-        width: 100%;
-        text-align: center;
-    }
-
-    .about-container img {
-        width: 100%;
-    }
-
-    .flex__right-block,
-    .right-block__right-title {
-        width: 100%;
-    }
-
-    .team__item {
-        flex-basis: calc(100% / 1);
-    }
-
-    .team__item:nth-child(2),
-    .team__item:nth-child(4),
-    .team__item:nth-child(6) {
-        flex-direction: row-reverse;
-    }
-
-    .team__item:nth-child(5) {
-        flex-direction: row;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* САША */
 
 @media screen and (min-width: 320px) and (max-width: 459px) {
 
@@ -277,52 +326,169 @@
     }
 
 
-    .partners__blocks {
-        padding-bottom: 15%;
-        margin-top: 15%;
+}
+
+
+
+
+/* ЗЛАТА */
+
+@media screen and (min-width: 460px) and (max-width: 759px) {
+
+    .navigation {
+        margin-left: 7%;
     }
 
+    .navigation a {
+        margin: 0 5%;
+    }
+
+    .button__nav {
+        width: 30%;
+        display: flex;
+        margin-right: 17%;
+    }
+
+    .button__nav button {
+        margin: 0 5%;
+    }
+
+    .btn__nav-one {
+        width: 100px;
+        height: 40px;
+        margin-right: 4%;
+        padding-right: 10%;
+    }
+
+    .btn__nav-two {
+        width: 100px;
+        height: 40px;
+        margin-right: 10%;
+    }
+
+    .social a {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+
+    .button__nav {
+        width: 30%;
+        display: flex;
+    }
+
+    .btn__nav-one {
+        width: 100px;
+        height: 40px;
+        margin-right: 4%;
+    }
+
+    .btn__nav-two {
+        width: 100px;
+        height: 40px;
+    }
+
+    .title-container__title {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-top: 25%;
+    }
+
+    .title-container__text {
+        font-size: 27px;
+        /* width: 192px; */
+        /* margin: 0 auto; */
+    }
+
+    .button__title {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 15% 5% 0;
+        padding-bottom: 5%;
+    }
+
+    .tailer__characters {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        
+    }
+
+    .tailer__characters p {
+        padding: 5%;
+    }
+
+    .tailer__characters img {
+        width: 60%;
+    }
+
+    .trailer__videoblock {
+        width: 100%;
+        height: 100%;
+    }
+
+    .videoblock {
+        max-width: 88%;
+    }
+
+    .videoblock iframe {
+        height: 350px;
+    }
+
+    .about__what-p {
+        text-align:left;
+    }
+    
+    .main__nft-box {
+        padding-top: 10%;
+    }
+    
+    .nft-box__boxes-choose {
+        padding-bottom: 10%;
+    }
+    
+
+/* .main__metaverse {
+    width: 100%;
+    padding: 0;
+    margin: 5%;
+}
+
+    .metaverse__vr-video {
+        width: 100%;
+    } */
+
+
+    /* НЕ МОЙ КОД */
+
+    .about__what-p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-container img {
+        width: 100%;
+    }
+
+    .flex__right-block, .right-block__right-title {
+        width: 100%;
+    }
 
     .team__item {
         flex-basis: calc(100% / 1);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .footer__bottom {
-        flex-wrap: wrap;
-        font-size: 14px;
+    .team__item:nth-child(2),
+    .team__item:nth-child(4),
+    .team__item:nth-child(6) {
+        flex-direction: row-reverse;
     }
 
-    .contacts__us {
-        padding-right: 15px;
+    .team__item:nth-child(5) {
+        flex-direction: row;
     }
-
-    .contacts__link {
-        margin-right: 7px;
-    }
-
-
-
-
-
 
 
 
