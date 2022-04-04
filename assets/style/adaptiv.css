@@ -436,8 +436,28 @@
         height: 350px;
     }
 
+    .about__what-p {
+        text-align:left;
+    }
+    
+    .main__nft-box {
+        padding-top: 10%;
+    }
+    
+    .nft-box__boxes-choose {
+        padding-bottom: 10%;
+    }
+    
 
+/* .main__metaverse {
+    width: 100%;
+    padding: 0;
+    margin: 5%;
+}
 
+    .metaverse__vr-video {
+        width: 100%;
+    } */
 
 
     /* НЕ МОЙ КОД */
@@ -470,6 +490,5 @@
     }
 
 
+
 }
-
-
