@@ -383,8 +383,22 @@
         margin-right: 10px;
     }
 
+    .concept__flex {
+        width: 100%;
+    }
+
+    .flex__left-block {
+        max-width: 150px;
+    }
 
 }
+
+
+
+
+
+
+
 
 
 
@@ -506,7 +520,7 @@
     .nft-box__boxes-choose {
         padding-bottom: 10%;
     }
-    
+
 
 /* .main__metaverse {
     width: 100%;
