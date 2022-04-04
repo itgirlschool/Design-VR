@@ -1,5 +1,9 @@
 @media screen and (max-width: 1200px) {
 
+    .token__shots {
+        display: none;
+    }
+
     .nft-equipments__weapons-choose {
         flex-wrap: wrap;
     }
@@ -8,10 +12,176 @@
         flex-wrap: wrap-reverse;
     }
 
+    .chronology__line::before {
+        width: 34%;
+    }
 
+    .team__container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: auto;
+    }
 }
 
-@media screen and (min-width: 760px) and (max-width: 1199px) {
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .navigation {
+        padding-left: 15px;
+    }
+
+    .button__nav {
+        padding-right: 15px;
+    }
+
+    .title-container {
+        padding-left: 15px;
+    }
+
+    .title-container__title img {
+	    width: 90%;
+    } 
+
+    .tailer__characters, .about-container, .team__p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .metaverse__vr-video, .videoblock {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .chronology__inside {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .chronology__line {
+        position: absolute;
+        left: 10px;
+        width: 100%;
+    }
+
+    .chronology__line::before {
+        content: none;
+    }
+
+    .chronology__line::after {
+        content: none;
+    }
+
+    .chronology__lineinside {
+        width: 10px;
+        height: 100%;
+    }
+
+    .containers__chronology {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .chronology__row {
+        flex-wrap: wrap;
+    }
+
+    .chronology__item {
+        flex-basis: 100%;
+        position: relative;
+        padding-left: 80px;
+        /* margin-bottom: 30px; */
+    }
+
+    .chronology__dot {
+        position: absolute;
+        margin-left: 0 !important;
+        left: 10px;
+    }
+
+    .chronology__item1 .chronology__dot::after, .chronology__item2 .chronology__dot::after {
+        background: #e4c940;
+    }
+
+    .chronology__dot::after {
+        height: 480%;
+        top: 32px !important;
+    }
+
+    .chronology__title {
+        position: initial;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .chronology__item1 .chronology__list {
+        top: 168px;
+        left: 0%;
+        min-width: 290px;
+    }
+
+    .chronology__list {
+        position: initial;
+    }
+
+    .chronology__list li {
+        margin-bottom: 10px;
+    }
+    
+    .team__title {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 979px) {
+
+    .logo img {
+        display: none;
+    }
+
+    .navigation {
+        padding-left: 15px;
+    }
+
+    .button__nav {
+        padding-right: 15px;
+    }
+
+    .btn__nav-one {
+        margin-right: 5px;
+        width: auto;
+    }
+
+    .btn__nav-two {
+        width: auto;
+
+    }
+
+    .title-container {
+        padding-left: 15px;
+    }
+
+    .title-container__title img {
+	    width: 90%;
+    } 
+
+    .tailer__characters, .trailer__videoblock, .about-container, .team__p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .metaverse__vr-video {
+        max-width: 90%;
+    }
+
+    .team__p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main__token {
+        padding-bottom: 200px;
+    }
 
     .team__item {
         flex-basis: calc(100% / 2);
@@ -29,55 +199,22 @@
 
 }
 
-@media screen and (min-width: 460px) and (max-width: 759px) {
+@media screen and (max-width: 760px) {
 
-    .about__what-p {
-        width: 100%;
-        text-align: center;
+    .chronology__list {
+        min-width: 0 !important;
     }
 
-    .about-container img {
-        width: 100%;
+    .chronology__list li {
+        margin-bottom: 5px;
     }
 
-    .flex__right-block,
-    .right-block__right-title {
-        width: 100%;
-    }
-
-    .team__item {
-        flex-basis: calc(100% / 1);
-    }
-
-    .team__item:nth-child(2),
-    .team__item:nth-child(4),
-    .team__item:nth-child(6) {
-        flex-direction: row-reverse;
-    }
-
-    .team__item:nth-child(5) {
-        flex-direction: row;
+    .chronology__dot {
+        top: -10px;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* САША */
 
 @media screen and (min-width: 320px) and (max-width: 459px) {
 
@@ -138,8 +275,7 @@
     .button__title-one {
         height: 54px;
         margin-bottom: 5%;
-
-
+        margin-right: 0px;
     }
 
     .button__title-two {
@@ -157,7 +293,6 @@
         max-width: 88%;
         height: 155px;
         border: 3px solid #615e5e;
-
     }
 
 
@@ -224,13 +359,42 @@
         max-width: 88%;
         height: 155px;
         border: 3px solid #615e5e;
-
     }
 
     #video2 {
         max-width: 97%;
         height: 150px;
         border-radius: 10px;
+    }
+
+    .concept__title {
+        font-size: 28px;
+    }
+
+    .flex__left-block {
+        margin-right: 0%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .left-block__p {
+        width: 80vw;
+        margin: 0px;
+        
+    }
+
+    .left-block__btns {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        
+    }
+
+    .left-block__btn1 {
+        margin-bottom: 5%;
+        margin-right: 0px;
 
     }
 
@@ -254,12 +418,29 @@
     }
 
 
-
-
     .token__title {
         font-size: 28px;
         margin-bottom: 0px;
         margin-bottom: 7%;
+    }
+
+    .main__token {
+        padding-bottom: 20%;
+        padding-top: 20%;
+    }
+
+    .chronology__item {
+        padding-left: 20%;
+    }
+
+    .chronology__list {
+        font-size: 14px;
+        min-width: 250px !important;
+        margin-bottom: 15%;
+    }
+
+    .chronology__list ul {
+        padding-left: 5%;
     }
 
     .main__team {
@@ -271,58 +452,246 @@
         height: 65px;
     }
 
-    .concept__title {
-        font-size: 30px;
-    }
-
+   
 
     .partners__blocks {
-        padding-bottom: 15%;
         margin-top: 15%;
+        padding-bottom: 15%;
     }
 
+    .footer__bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 14px;
+        
+    }
+
+    .contacts__us {
+        padding-right: 10px;
+    }
+
+    .contacts__link {
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .containerS {
+        padding-bottom: 37px;
+    }
+
+    .chronology__row {
+        padding-top: 30px;
+    }
+
+    .chronology__item {
+        padding-left: 60px;
+        margin-bottom: 20px;
+    }
+
+    .chronology__dot {
+        top: -10px;
+        left: 0px;
+    }
+
+
+}
+
+
+/* ЗЛАТА */
+
+@media screen and (min-width: 460px) and (max-width: 759px) {
+
+    .navigation {
+        margin-left: 7%;
+    }
+
+    .navigation a {
+        margin: 0 5%;
+    }
+
+    .button__nav {
+        width: 30%;
+        display: flex;
+        margin-right: 17%;
+    }
+
+    .button__nav button {
+        margin: 0 5%;
+    }
+
+    .btn__nav-one {
+        width: 100px;
+        height: 40px;
+        margin-right: 4%;
+        padding-right: 10%;
+    }
+
+    .btn__nav-two {
+        width: 100px;
+        height: 40px;
+        margin-right: 10%;
+    }
+
+    .social a {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+
+    .button__nav {
+        width: 30%;
+        display: flex;
+    }
+
+    .btn__nav-one {
+        width: 100px;
+        height: 40px;
+        margin-right: 4%;
+    }
+
+    .btn__nav-two {
+        width: 100px;
+        height: 40px;
+    }
+
+    .title-container__title {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-top: 25%;
+    }
+
+    .title-container__text {
+        font-size: 27px;
+        /* width: 192px; */
+        /* margin: 0 auto; */
+    }
+
+    .button__title {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 15% 5% 0;
+        padding-bottom: 5%;
+    }
+
+    .tailer__characters {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        
+    }
+
+    .tailer__characters p {
+        padding: 5%;
+    }
+
+    .tailer__characters img {
+        width: 60%;
+    }
+
+    .trailer__videoblock {
+        width: 100%;
+        height: 100%;
+    }
+
+    .videoblock {
+        max-width: 88%;
+    }
+
+    .videoblock iframe {
+        height: 350px;
+    }
+
+    .about__what-p {
+        text-align:left;
+    }
+    
+    .main__nft-box {
+        padding-top: 10%;
+    }
+    
+    .nft-box__boxes-choose {
+        padding-bottom: 10%;
+    }
+    
+
+/* .main__metaverse {
+    width: 100%;
+    padding: 0;
+    margin: 5%;
+}
+
+    .metaverse__vr-video {
+        width: 100%;
+    } */
+
+
+    /* НЕ МОЙ КОД */
+
+    .about__what-p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-container img {
+        width: 100%;
+    }
+
+    .flex__right-block, .right-block__right-title {
+        width: 100%;
+    }
+
+    .team__item {
+        flex-basis: calc(100% / 2);
+    }
+
+    .team__item:nth-child(3),
+    .team__item:nth-child(4) {
+        flex-direction: row-reverse;
+    }
+
+    .team__item:nth-child(5),
+    .team__item:nth-child(6) {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .chronology__dot::after {
+        height: 610%;
+    }
 
     .team__item {
         flex-basis: calc(100% / 1);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .footer__bottom {
-        flex-wrap: wrap;
-        font-size: 14px;
+    .team__item:nth-child(2),
+    .team__item:nth-child(4),
+    .team__item:nth-child(6) {
+        flex-direction: row-reverse;
     }
 
-    .contacts__us {
-        padding-right: 15px;
+    .team__item:nth-child(5) {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .chronology__dot {
+        left: -10px;
     }
 
-    .contacts__link {
-        margin-right: 7px;
+    .chronology__item {
+        padding-left: 45px;
     }
+}
 
-
-
-
-
-
-
-
+@media screen and (min-width: 320px) and (max-width: 349px) {
+    .chronology__dot::after {
+        height: 700%;
+    }
 }

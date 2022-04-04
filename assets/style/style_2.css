@@ -9,9 +9,6 @@ body {
 }
 
 /* РАЗМЕТКА */
-div {
-    border: solid 2px rgb(155, 216, 187)
-}
 
 
 .body {
@@ -67,7 +64,7 @@ div {
 }
 
 .social {
-    margin: 0 1% ;
+    margin: 0 1%;
     width: 27%;
     display: flex;
     justify-content: space-between;
@@ -136,9 +133,9 @@ div {
 }
 
 @media (max-width: 975px) {
-.logo {
-    display: none;
-}
+    .logo {
+        display: none;
+    }
 }
 
 @media (max-width: 1229px) {
@@ -205,19 +202,17 @@ div {
     margin: 0 auto;
     /* width: 80%; */
 
-    /* border: solid 2px red; */
+
 }
 
 .table {
     /* width: 100%; */
-
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(5, 20%);
-
     background: rgba(196, 196, 196, 0.18);
-
     border-radius: 15px;
+    
 
 }
 
@@ -250,30 +245,8 @@ p {
     margin-left: 15%;
     margin-top: 20%;
 
-    /* border: solid 2px rgb(0, 128, 49); */
 }
 
-/* ОТВЕРСТИЯ ОТ ВЫСТРЕЛОВ */
-
-/* h5 {
-    border: #FEFFFF solid 2px;
-
-}
-
-.bullet1 {
-    display: flex;
-    justify-content: flex-end;
-
-    margin-right: 5%;
-    margin-top: 5%;
-}
-
-
-.bullet2 {
-    border: #FEFFFF solid 2px;
-
-}
- */
 
 /* ЗАКРУГЛЕНИЕ УГОЛКОВ - ПОСМОТРЕТЬ ПРАВО ВЕРХ */
 .table4 {
@@ -326,92 +299,7 @@ p {
     margin-right: 0px;
 }
 
-@media (max-width: 1200px) {
-    .table {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 219px);
-    }
 
-    .table2, 
-    .table4,
-    .table5
-    {
-        grid-row: 2/3;
-        height: 100%;
-        
-        border: solid 2px rgb(168, 152, 255)
-    }
-
-    .table7, 
-    .table10,
-    .table12
-    {
-        grid-row: 4/5;
-        border: solid 2px rgb(168, 152, 255)
-    }
-
-    .table13, 
-    .table15,
-    .table18
-    {
-        grid-row: 6/7;
-        border: solid 2px rgb(168, 152, 255)
-    }
-
-    .table20
-    {
-        grid-row: 8/9;
-        border: solid 2px rgb(168, 152, 255)
-    }
-
-    .table19,
-    .table20
-    {
-        grid-column: 2/3;
-    }
-
-
-    .table6 img {
-        border-radius: 0px 15px 0px 0px;
-    }
-
-    .table4 {
-        border-radius: 0px;
-    }
-
-
-}
-
-@media (max-width: 920px) {
-    .table-container {
-        width: 100%;
-    }
-    
-
-    .table {
-        grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(10, 1fr);
-
-        width: 80%;
-    }
-
-    .table1,
-    .table2,
-    .table6,
-    .table5,
-    .table9,
-    .table10,
-    .table14,
-    .table13,
-    .table17,
-    .table18
-    {
-        grid-column: 1/2;
-    }
-
-
-
-}
 
 /* BORDERS FOOTER */
 /*

@@ -1,0 +1,100 @@
+@media (max-width: 1200px) {
+    .table {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 219px);
+    }
+
+    .table2, 
+    .table4,
+    .table5
+    {
+        grid-row: 2/3;
+        height: 100%;
+        
+        border: solid 2px rgb(168, 152, 255)
+    }
+
+    .table7, 
+    .table10,
+    .table12
+    {
+        grid-row: 4/5;
+        border: solid 2px rgb(168, 152, 255)
+    }
+
+    .table13, 
+    .table15,
+    .table18
+    {
+        grid-row: 6/7;
+        border: solid 2px rgb(168, 152, 255)
+    }
+
+    .table20
+    {
+        grid-row: 8/9;
+        border: solid 2px rgb(168, 152, 255)
+    }
+
+    .table19,
+    .table20
+    {
+        grid-column: 2/3;
+    }
+
+
+    .table6 img {
+        border-radius: 0px 15px 0px 0px;
+    }
+
+    .table4 {
+        border-radius: 0px;
+    }
+
+
+}
+
+@media (max-width: 920px) {
+    .table-container {
+        width: 100%;
+    }
+    
+
+    .table {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(10, 1fr);
+
+        width: 80%;
+    }
+
+    .table1,
+    .table2,
+    .table6,
+    .table5,
+    .table9,
+    .table10,
+    .table14,
+    .table13,
+    .table17,
+    .table18
+    {
+        grid-column: 1/2;
+    }
+
+    .table3,
+    .table4,
+    .table8,
+    .table7,
+    .table11,
+    .table12,
+    .table16,
+    .table15,
+    .table19,
+    .table20
+    {
+        grid-column: 2/3;
+    }
+
+
+}
+
