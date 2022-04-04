@@ -187,8 +187,7 @@
     .button__title-one {
         height: 54px;
         margin-bottom: 5%;
-
-
+        margin-right: 0px;
     }
 
     .button__title-two {
@@ -206,7 +205,6 @@
         max-width: 88%;
         height: 155px;
         border: 3px solid #615e5e;
-
     }
 
 
@@ -273,13 +271,38 @@
         max-width: 88%;
         height: 155px;
         border: 3px solid #615e5e;
-
     }
 
     #video2 {
         max-width: 97%;
         height: 150px;
         border-radius: 10px;
+    }
+
+    .flex__left-block {
+        margin-right: 0%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .left-block__p {
+        width: 80vw;
+        margin: 0px;
+        
+    }
+
+    .left-block__btns {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        
+    }
+
+    .left-block__btn1 {
+        margin-bottom: 5%;
+        margin-right: 0px;
 
     }
 
@@ -303,12 +326,28 @@
     }
 
 
-
-
     .token__title {
         font-size: 28px;
         margin-bottom: 0px;
         margin-bottom: 7%;
+    }
+
+    .main__token {
+        padding-bottom: 20%;
+    }
+
+    .chronology__item {
+        padding-left: 20%;
+    }
+
+    .chronology__list {
+        font-size: 14px;
+        min-width: 250px !important;
+        margin-bottom: 15%;
+    }
+
+    .chronology__list ul {
+        padding-left: 5%;
     }
 
     .main__team {
@@ -322,6 +361,26 @@
 
     .concept__title {
         font-size: 30px;
+    }
+
+    .partners__blocks {
+        margin-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .footer__bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 14px;
+        
+    }
+
+    .contacts__us {
+        padding-right: 10px;
+    }
+
+    .contacts__link {
+        margin-right: 10px;
     }
 
 
