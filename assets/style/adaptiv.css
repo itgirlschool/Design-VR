@@ -40,12 +40,12 @@
 	    width: 90%;
     } 
 
-    .tailer__characters, .trailer__videoblock, .about-container, .team__p {
+    .tailer__characters, .about-container, .team__p {
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    .metaverse__vr-video {
+    .metaverse__vr-video, .videoblock {
         max-width: 90%;
     }
 }
