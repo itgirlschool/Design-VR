@@ -104,8 +104,6 @@
     .team__title {
         padding-top: 100px;
     }
-
-
 }
 
 @media screen and (min-width: 760px) and (max-width: 979px) {
@@ -172,6 +170,21 @@
         flex-direction: row;
     }
 
+}
+
+@media screen and (max-width: 760px) {
+
+    .chronology__list {
+        min-width: 0 !important;
+    }
+
+    .chronology__list li {
+        margin-bottom: 5px;
+    }
+
+    .chronology__dot {
+        top: -10px;
+    }
 }
 
 /* САША */
@@ -431,10 +444,29 @@
         margin-right: 10px;
     }
 
-
 }
 
+@media screen and (max-width: 760px) {
+    .containerS {
+        padding-bottom: 37px;
+    }
 
+    .chronology__row {
+        padding-top: 30px;
+    }
+
+    .chronology__item {
+        padding-left: 60px;
+        margin-bottom: 20px;
+    }
+
+    .chronology__dot {
+        top: -10px;
+        left: 0px;
+    }
+
+
+}
 
 
 /* ЗЛАТА */
@@ -596,6 +628,26 @@
         flex-direction: row;
     }
 
+}
 
+@media screen and (max-width: 460px) {
+    .chronology__dot::after {
+        height: 610%;
+    }
+}
 
+@media screen and (max-width: 350px) {
+    .chronology__dot {
+        left: -10px;
+    }
+
+    .chronology__item {
+        padding-left: 45px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 349px) {
+    .chronology__dot::after {
+        height: 700%;
+    }
 }
