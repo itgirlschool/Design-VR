@@ -634,6 +634,20 @@
     .chronology__dot::after {
         height: 610%;
     }
+
+    .team__item {
+        flex-basis: calc(100% / 1);
+    }
+
+    .team__item:nth-child(2),
+    .team__item:nth-child(4),
+    .team__item:nth-child(6) {
+        flex-direction: row-reverse;
+    }
+
+    .team__item:nth-child(5) {
+        flex-direction: row;
+    }
 }
 
 @media screen and (max-width: 350px) {
