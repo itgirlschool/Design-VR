@@ -367,6 +367,10 @@
         border-radius: 10px;
     }
 
+    .concept__title {
+        font-size: 28px;
+    }
+
     .flex__left-block {
         margin-right: 0%;
         display: flex;
@@ -422,6 +426,7 @@
 
     .main__token {
         padding-bottom: 20%;
+        padding-top: 20%;
     }
 
     .chronology__item {
@@ -447,9 +452,7 @@
         height: 65px;
     }
 
-    .concept__title {
-        font-size: 30px;
-    }
+   
 
     .partners__blocks {
         margin-top: 15%;
