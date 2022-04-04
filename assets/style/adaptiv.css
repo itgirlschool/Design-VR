@@ -90,7 +90,6 @@
         flex-basis: 100%;
         position: relative;
         padding-left: 80px;
-        /* margin-bottom: 30px; */
     }
 
     .chronology__dot {
@@ -212,12 +211,10 @@
     .chronology__dot {
         top: -10px;
     }
+
 }
 
-/* САША */
-
 @media screen and (min-width: 320px) and (max-width: 459px) {
-
 
     .link-link,
     .social,
@@ -228,7 +225,6 @@
     .navigation {
         margin-left: 5px;
     }
-
 
     .button__nav {
         display: flex;
@@ -241,7 +237,6 @@
         width: 80px;
         height: 45px;
     }
-
 
     .btn__nav-two {
         width: 80px;
@@ -378,7 +373,6 @@
         flex-wrap: wrap;
     }
 
-
     .left-block__p {
         width: 80vw;
         margin: 0px;
@@ -417,7 +411,6 @@
         margin-bottom: 8px;
     }
 
-
     .token__title {
         font-size: 28px;
         margin-bottom: 0px;
@@ -451,8 +444,6 @@
         width: 278px;
         height: 65px;
     }
-
-   
 
     .partners__blocks {
         margin-top: 15%;
@@ -495,11 +486,7 @@
         left: 0px;
     }
 
-
 }
-
-
-/* ЗЛАТА */
 
 @media screen and (min-width: 460px) and (max-width: 759px) {
 
@@ -565,8 +552,6 @@
 
     .title-container__text {
         font-size: 27px;
-        /* width: 192px; */
-        /* margin: 0 auto; */
     }
 
     .button__title {
@@ -616,20 +601,6 @@
     .nft-box__boxes-choose {
         padding-bottom: 10%;
     }
-    
-
-/* .main__metaverse {
-    width: 100%;
-    padding: 0;
-    margin: 5%;
-}
-
-    .metaverse__vr-video {
-        width: 100%;
-    } */
-
-
-    /* НЕ МОЙ КОД */
 
     .about__what-p {
         width: 100%;
@@ -637,10 +608,6 @@
     }
 
     .about-container img {
-        width: 100%;
-    }
-
-    .flex__right-block, .right-block__right-title {
         width: 100%;
     }
 
@@ -658,6 +625,23 @@
         flex-direction: row;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+
+    .flex__left-block {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .right-block__right-title {
+        min-width: auto;
+    }
+
+    .flex__right-block {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media screen and (max-width: 460px) {
