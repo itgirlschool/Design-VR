@@ -110,6 +110,54 @@
 
 @media screen and (min-width: 760px) and (max-width: 979px) {
 
+    .logo img {
+        display: none;
+    }
+
+    .navigation {
+        padding-left: 15px;
+    }
+
+    .button__nav {
+        padding-right: 15px;
+    }
+
+    .btn__nav-one {
+        margin-right: 5px;
+        width: auto;
+    }
+
+    .btn__nav-two {
+        width: auto;
+
+    }
+
+    .title-container {
+        padding-left: 15px;
+    }
+
+    .title-container__title img {
+	    width: 90%;
+    } 
+
+    .tailer__characters, .trailer__videoblock, .about-container, .team__p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .metaverse__vr-video {
+        max-width: 90%;
+    }
+
+    .team__p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main__token {
+        padding-bottom: 200px;
+    }
+
     .team__item {
         flex-basis: calc(100% / 2);
     }
