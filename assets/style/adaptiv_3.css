@@ -392,7 +392,7 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 459px) {
 
     .navigation {
         justify-content: space-around;
@@ -505,7 +505,7 @@
     .captain__logo,
     .coloner__logo,
     .general__logo {
-        left: 127px;
+        left: 30%;
 
     }
 
@@ -516,7 +516,7 @@
     }
 
     .general {
-        height: 180vh;
+        height: 145vh;
     }
 
 
@@ -544,7 +544,7 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 150px) and (max-width: 319px) {
 
     .nav {
         height: 8vh;
@@ -677,15 +677,15 @@
     }
 
     .captain {
-        height: 66vh;
+        height: 60vh;
     }
 
     .coloner {
-        height: 154vh;
+        height: 136vh;
     }
 
     .general {
-        height: 195vh;
+        height: 172vh;
     }
 
     .captain__logo,
@@ -693,7 +693,7 @@
     .general__logo {
         position: absolute;
         top: -40px;
-        left: 78px;
+        left: 67px;
 
     }
 

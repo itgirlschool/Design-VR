@@ -33,9 +33,11 @@
 }
 
 @media screen and (max-width: 1350px) {
+
     .navigation {
         justify-content: space-around;
         width: 240px;
+
     }
 
     .navigation__link {
@@ -429,9 +431,9 @@
     }
 
     .knopka {
-        font-size: 11px;
+        font-size: 10px;
+        line-height: 4vh;
     }
-
     a.knopka {
         width: 238px;
         height: 36px;
@@ -583,8 +585,8 @@
     }
 
     a.knopka {
-        width: 178px;
-        height: 36px;
+        width: 143px;
+        height: 34px;
     }
 
     .knopka {
@@ -628,3 +630,12 @@
         padding: 0% 0 0% 8%;
     }
 }
+@media screen and (max-width: 319px) {
+.knopka {
+    font-size: 8px;
+    line-height: 4vh;
+}
+
+.nav {
+    height: 7vh;
+}}
